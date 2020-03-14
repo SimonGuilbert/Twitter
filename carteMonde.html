@@ -1,0 +1,4584 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3424e4a605d3456f833fbc5e5afeb739 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_3424e4a605d3456f833fbc5e5afeb739" ></div>
+        
+</body>
+<script>    
+    
+            var map_3424e4a605d3456f833fbc5e5afeb739 = L.map(
+                "map_3424e4a605d3456f833fbc5e5afeb739",
+                {
+                    center: [45.9196872, 6.1581842],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0e933c70afaf441584cc236ed963e38a = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var marker_5111add2ae634debb9332619b8d22c3a = L.marker(
+                [48.761929, 2.42749],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_06420b7ce4dc4e4a8c0d400340ccce62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_5111add2ae634debb9332619b8d22c3a.setIcon(icon_06420b7ce4dc4e4a8c0d400340ccce62);
+        
+    
+        var popup_2cd2db88cc7c440094dffa4334ebfb66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20462616837740499ab9b2857eb515b6 = $(`<div id="html_20462616837740499ab9b2857eb515b6" style="width: 100.0%; height: 100.0%;"><i>Get back, christopher walking, like me, feeling, scenario j’en ai trop</i></div>`)[0];
+            popup_2cd2db88cc7c440094dffa4334ebfb66.setContent(html_20462616837740499ab9b2857eb515b6);
+        
+
+        marker_5111add2ae634debb9332619b8d22c3a.bindPopup(popup_2cd2db88cc7c440094dffa4334ebfb66)
+        ;
+
+        
+    
+    
+            marker_5111add2ae634debb9332619b8d22c3a.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf15311332f0451a8dc141c0d20d6b0d = L.marker(
+                [42.183685, -83.181455],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_18fac2eb907e4efbbf6e39c7ec3c2627 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_bf15311332f0451a8dc141c0d20d6b0d.setIcon(icon_18fac2eb907e4efbbf6e39c7ec3c2627);
+        
+    
+        var popup_f5defebaafaa4d8cb4e2b3a74abba830 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f0362e5805d46838017b7dca38f6158 = $(`<div id="html_6f0362e5805d46838017b7dca38f6158" style="width: 100.0%; height: 100.0%;"><i>Want to work at BASF? We're hiring in #Wyandotte, MI! Click the link in our bio for details on this job and more: S… https://t.co/i21skGoC6D</i></div>`)[0];
+            popup_f5defebaafaa4d8cb4e2b3a74abba830.setContent(html_6f0362e5805d46838017b7dca38f6158);
+        
+
+        marker_bf15311332f0451a8dc141c0d20d6b0d.bindPopup(popup_f5defebaafaa4d8cb4e2b3a74abba830)
+        ;
+
+        
+    
+    
+            marker_bf15311332f0451a8dc141c0d20d6b0d.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f80748219d56467abf0981ce75e2c36e = L.marker(
+                [52.338079, 13.088304],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_900bf97a74144afe9423c52ab5289fda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_f80748219d56467abf0981ce75e2c36e.setIcon(icon_900bf97a74144afe9423c52ab5289fda);
+        
+    
+        var popup_068be051b6054698bc1be1b919e2bd70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d14218e5945f4b4c88278ce63c1fcf9c = $(`<div id="html_d14218e5945f4b4c88278ce63c1fcf9c" style="width: 100.0%; height: 100.0%;"><i>Ethical guidelines for #AI: Why it matters via @nicole_scooter https://t.co/liPMXPCjol #AIforGood</i></div>`)[0];
+            popup_068be051b6054698bc1be1b919e2bd70.setContent(html_d14218e5945f4b4c88278ce63c1fcf9c);
+        
+
+        marker_f80748219d56467abf0981ce75e2c36e.bindPopup(popup_068be051b6054698bc1be1b919e2bd70)
+        ;
+
+        
+    
+    
+            marker_f80748219d56467abf0981ce75e2c36e.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57c9c1e48bb1478f96a315926f473c34 = L.marker(
+                [25.664881, -80.178736],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_92dd9dd461bc4a3fa63a569d394849f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_57c9c1e48bb1478f96a315926f473c34.setIcon(icon_92dd9dd461bc4a3fa63a569d394849f4);
+        
+    
+        var popup_c78570553de34a1991d17d6b2a1f3394 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5daaa4ed35fc4eeeab3978d7ded857b9 = $(`<div id="html_5daaa4ed35fc4eeeab3978d7ded857b9" style="width: 100.0%; height: 100.0%;"><i>Pentagon to Adopt Detailed Principles for Using AI https://t.co/8ptodju3nK via @defenseone</i></div>`)[0];
+            popup_c78570553de34a1991d17d6b2a1f3394.setContent(html_5daaa4ed35fc4eeeab3978d7ded857b9);
+        
+
+        marker_57c9c1e48bb1478f96a315926f473c34.bindPopup(popup_c78570553de34a1991d17d6b2a1f3394)
+        ;
+
+        
+    
+    
+            marker_57c9c1e48bb1478f96a315926f473c34.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00b2b9a532fd4f83bea89cd1d99a01e0 = L.marker(
+                [53.011035, 8.481599],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_8354888bad1541ae983f191e5c48e824 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_00b2b9a532fd4f83bea89cd1d99a01e0.setIcon(icon_8354888bad1541ae983f191e5c48e824);
+        
+    
+        var popup_a462c658712447f68875913f963b6275 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfcce936219e4e328c1ac3f68b614570 = $(`<div id="html_dfcce936219e4e328c1ac3f68b614570" style="width: 100.0%; height: 100.0%;"><i>The plan to shape Europe's digital future fits a 35-page paper. 😐  EU offers strategy for artificial intelligence,… https://t.co/Oy28TtFps8</i></div>`)[0];
+            popup_a462c658712447f68875913f963b6275.setContent(html_dfcce936219e4e328c1ac3f68b614570);
+        
+
+        marker_00b2b9a532fd4f83bea89cd1d99a01e0.bindPopup(popup_a462c658712447f68875913f963b6275)
+        ;
+
+        
+    
+    
+            marker_00b2b9a532fd4f83bea89cd1d99a01e0.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c79f1d2343cb4831aaa74f73f8b84b57 = L.marker(
+                [46.173987, 6.086494],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_b5b866631890438fb2ad46ffaa03c898 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_c79f1d2343cb4831aaa74f73f8b84b57.setIcon(icon_b5b866631890438fb2ad46ffaa03c898);
+        
+    
+        var popup_321a114466024abbb3eda1b2d6eb4957 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06a96cc14e6f4d0a9119d8a67b1f3c30 = $(`<div id="html_06a96cc14e6f4d0a9119d8a67b1f3c30" style="width: 100.0%; height: 100.0%;"><i>@jn_acosta @CarpioEjt Clinical trials with control group without #AI can add evidences. The cost effectiveness will… https://t.co/3qHPH6fVm4</i></div>`)[0];
+            popup_321a114466024abbb3eda1b2d6eb4957.setContent(html_06a96cc14e6f4d0a9119d8a67b1f3c30);
+        
+
+        marker_c79f1d2343cb4831aaa74f73f8b84b57.bindPopup(popup_321a114466024abbb3eda1b2d6eb4957)
+        ;
+
+        
+    
+    
+            marker_c79f1d2343cb4831aaa74f73f8b84b57.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50d0974d4cc948889228d567b264cef6 = L.marker(
+                [38.801826, -77.119401],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_f8cc9a1abc2b49b6906fde68fb986d14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_50d0974d4cc948889228d567b264cef6.setIcon(icon_f8cc9a1abc2b49b6906fde68fb986d14);
+        
+    
+        var popup_628902d22e454a328d2b51a318ef96c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4cf4bbda95444909a7d858cc20e4dcb7 = $(`<div id="html_4cf4bbda95444909a7d858cc20e4dcb7" style="width: 100.0%; height: 100.0%;"><i>Register here https://t.co/sHTeWL9KcN for today’s @abaantitrust webinar</i></div>`)[0];
+            popup_628902d22e454a328d2b51a318ef96c7.setContent(html_4cf4bbda95444909a7d858cc20e4dcb7);
+        
+
+        marker_50d0974d4cc948889228d567b264cef6.bindPopup(popup_628902d22e454a328d2b51a318ef96c7)
+        ;
+
+        
+    
+    
+            marker_50d0974d4cc948889228d567b264cef6.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52ef92a3e9e641909a109d6c5883c606 = L.marker(
+                [50.876666, 4.716998],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_11aadcfc4e70419bb975ce40b42c7d18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_52ef92a3e9e641909a109d6c5883c606.setIcon(icon_11aadcfc4e70419bb975ce40b42c7d18);
+        
+    
+        var popup_98b50bb747554201832ca9aad5ab1e75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb57104d2d7044e5a922217a26480279 = $(`<div id="html_bb57104d2d7044e5a922217a26480279" style="width: 100.0%; height: 100.0%;"><i>He explains the 7 deadly sins of predictions about AI (slide). Numero uno: long term and short term effects and app… https://t.co/DSYJ4vkPSl</i></div>`)[0];
+            popup_98b50bb747554201832ca9aad5ab1e75.setContent(html_bb57104d2d7044e5a922217a26480279);
+        
+
+        marker_52ef92a3e9e641909a109d6c5883c606.bindPopup(popup_98b50bb747554201832ca9aad5ab1e75)
+        ;
+
+        
+    
+    
+            marker_52ef92a3e9e641909a109d6c5883c606.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc1c25c1e12041409203149e5bce80b5 = L.marker(
+                [46.670387, 9.669419],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_a3e2d2f6de9d473682a03ea479659073 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_fc1c25c1e12041409203149e5bce80b5.setIcon(icon_a3e2d2f6de9d473682a03ea479659073);
+        
+    
+        var popup_bbbc7651fa1646d8aaa401b866158a01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b6edabc9fd74f45ba5a858d674b706e = $(`<div id="html_4b6edabc9fd74f45ba5a858d674b706e" style="width: 100.0%; height: 100.0%;"><i>Indeed very sad to hear of Jean Daniel’s death. He was France’s greatest post-war journalist intellectual. Firmly o… https://t.co/ufASMNTaJj</i></div>`)[0];
+            popup_bbbc7651fa1646d8aaa401b866158a01.setContent(html_4b6edabc9fd74f45ba5a858d674b706e);
+        
+
+        marker_fc1c25c1e12041409203149e5bce80b5.bindPopup(popup_bbbc7651fa1646d8aaa401b866158a01)
+        ;
+
+        
+    
+    
+            marker_fc1c25c1e12041409203149e5bce80b5.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ae029a931f6487886e46a950815f526 = L.marker(
+                [47.392205, 12.62492],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_f6d3325c5ba3481ca66b5bc45ca0af58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_2ae029a931f6487886e46a950815f526.setIcon(icon_f6d3325c5ba3481ca66b5bc45ca0af58);
+        
+    
+        var popup_f60fff6eee564f3e9f95e653a1203bd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7342bd96c36b44b8a7ba0ff744b02880 = $(`<div id="html_7342bd96c36b44b8a7ba0ff744b02880" style="width: 100.0%; height: 100.0%;"><i>This really is key for any marketplace (at the end of the day this is the real value you add) https://t.co/BKMfG2OALH</i></div>`)[0];
+            popup_f60fff6eee564f3e9f95e653a1203bd4.setContent(html_7342bd96c36b44b8a7ba0ff744b02880);
+        
+
+        marker_2ae029a931f6487886e46a950815f526.bindPopup(popup_f60fff6eee564f3e9f95e653a1203bd4)
+        ;
+
+        
+    
+    
+            marker_2ae029a931f6487886e46a950815f526.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a74ccf322fed4db8a3e11dbefe63be36 = L.marker(
+                [40.683935, -74.026675],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_1f26cb556d954271afea1f5039b32063 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_a74ccf322fed4db8a3e11dbefe63be36.setIcon(icon_1f26cb556d954271afea1f5039b32063);
+        
+    
+        var popup_b2af96243dae4551afb69ad0cc41ba82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae749455242749eda5c59059a0bc2738 = $(`<div id="html_ae749455242749eda5c59059a0bc2738" style="width: 100.0%; height: 100.0%;"><i>Honored to share the stage with these talented leaders from across disciplines @nyustern Annual Marketing Summit wi… https://t.co/ikiM4KEVcq</i></div>`)[0];
+            popup_b2af96243dae4551afb69ad0cc41ba82.setContent(html_ae749455242749eda5c59059a0bc2738);
+        
+
+        marker_a74ccf322fed4db8a3e11dbefe63be36.bindPopup(popup_b2af96243dae4551afb69ad0cc41ba82)
+        ;
+
+        
+    
+    
+            marker_a74ccf322fed4db8a3e11dbefe63be36.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90bca63400e04f098cff94f4e2f026b3 = L.marker(
+                [40.31858, -79.885623],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_a987f75091154d00a3df83cb1ab96c04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_90bca63400e04f098cff94f4e2f026b3.setIcon(icon_a987f75091154d00a3df83cb1ab96c04);
+        
+    
+        var popup_3779c20aa7b54ee6ab0f0ecc4827fd20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fd48f3e169f49918d2e48a8e94b4776 = $(`<div id="html_3fd48f3e169f49918d2e48a8e94b4776" style="width: 100.0%; height: 100.0%;"><i>@RationalEtienne @AllelMalika @elonmusk @28delayslater @EvaFoxU @InSpaceXItrust @mayemusk @RenataKonkoly… https://t.co/QV94CzaLHh</i></div>`)[0];
+            popup_3779c20aa7b54ee6ab0f0ecc4827fd20.setContent(html_3fd48f3e169f49918d2e48a8e94b4776);
+        
+
+        marker_90bca63400e04f098cff94f4e2f026b3.bindPopup(popup_3779c20aa7b54ee6ab0f0ecc4827fd20)
+        ;
+
+        
+    
+    
+            marker_90bca63400e04f098cff94f4e2f026b3.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a8a4f7b32044e0793305c7165114c3f = L.marker(
+                [16.492702, 74.015218],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_e9a6d0a008de49248492be100e6e7d16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_1a8a4f7b32044e0793305c7165114c3f.setIcon(icon_e9a6d0a008de49248492be100e6e7d16);
+        
+    
+        var popup_62defbe4974742e39dfa15fc664ebb06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c40e50d9e68e4a49b0da9697de30f20d = $(`<div id="html_c40e50d9e68e4a49b0da9697de30f20d" style="width: 100.0%; height: 100.0%;"><i>What the SECULAR indian will say about it???? https://t.co/3Z3vWr8avH</i></div>`)[0];
+            popup_62defbe4974742e39dfa15fc664ebb06.setContent(html_c40e50d9e68e4a49b0da9697de30f20d);
+        
+
+        marker_1a8a4f7b32044e0793305c7165114c3f.bindPopup(popup_62defbe4974742e39dfa15fc664ebb06)
+        ;
+
+        
+    
+    
+            marker_1a8a4f7b32044e0793305c7165114c3f.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc20b26903fd4131b26c5d019edbc822 = L.marker(
+                [10.247004, 11.129546],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_ddfafd5aa5034dc88972cf6d44f636fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_cc20b26903fd4131b26c5d019edbc822.setIcon(icon_ddfafd5aa5034dc88972cf6d44f636fb);
+        
+    
+        var popup_ab8093ffc4a64e938730c13355d0abf0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5fb893422b644fa89dc73a6fecf48115 = $(`<div id="html_5fb893422b644fa89dc73a6fecf48115" style="width: 100.0%; height: 100.0%;"><i>👌 cool 😂</i></div>`)[0];
+            popup_ab8093ffc4a64e938730c13355d0abf0.setContent(html_5fb893422b644fa89dc73a6fecf48115);
+        
+
+        marker_cc20b26903fd4131b26c5d019edbc822.bindPopup(popup_ab8093ffc4a64e938730c13355d0abf0)
+        ;
+
+        
+    
+    
+            marker_cc20b26903fd4131b26c5d019edbc822.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f997cf1e584242b099446c33f7ab5284 = L.marker(
+                [11.720159, 11.930547],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_8d66b93b9a0841bb8d1f4c629773a390 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_f997cf1e584242b099446c33f7ab5284.setIcon(icon_8d66b93b9a0841bb8d1f4c629773a390);
+        
+    
+        var popup_193ed099a59b4004b6e1df09447ab92f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1f8352ce05047d3a35d69af93d8b38f = $(`<div id="html_c1f8352ce05047d3a35d69af93d8b38f" style="width: 100.0%; height: 100.0%;"><i>Tooh itaceee</i></div>`)[0];
+            popup_193ed099a59b4004b6e1df09447ab92f.setContent(html_c1f8352ce05047d3a35d69af93d8b38f);
+        
+
+        marker_f997cf1e584242b099446c33f7ab5284.bindPopup(popup_193ed099a59b4004b6e1df09447ab92f)
+        ;
+
+        
+    
+    
+            marker_f997cf1e584242b099446c33f7ab5284.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82d7620dd07e4669a0b742674dd1ad72 = L.marker(
+                [50.796328, 4.313989],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_62af722ca6004c52be9901c9ba7003dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_82d7620dd07e4669a0b742674dd1ad72.setIcon(icon_62af722ca6004c52be9901c9ba7003dd);
+        
+    
+        var popup_6a73c8f454954fe9a515d065b708ebf9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_973f6976abbe4e12b290f52de90f4121 = $(`<div id="html_973f6976abbe4e12b290f52de90f4121" style="width: 100.0%; height: 100.0%;"><i>i need</i></div>`)[0];
+            popup_6a73c8f454954fe9a515d065b708ebf9.setContent(html_973f6976abbe4e12b290f52de90f4121);
+        
+
+        marker_82d7620dd07e4669a0b742674dd1ad72.bindPopup(popup_6a73c8f454954fe9a515d065b708ebf9)
+        ;
+
+        
+    
+    
+            marker_82d7620dd07e4669a0b742674dd1ad72.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f373e17c7d44464fa33d35a9b6722cfd = L.marker(
+                [39.917357, 32.529478],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_6b5abe89ed0646899d9dc37b995655fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_f373e17c7d44464fa33d35a9b6722cfd.setIcon(icon_6b5abe89ed0646899d9dc37b995655fe);
+        
+    
+        var popup_aa3a8013c1bb415abde4d9c6af383ba3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97b0821e672b40b499a10ec62d07ddda = $(`<div id="html_97b0821e672b40b499a10ec62d07ddda" style="width: 100.0%; height: 100.0%;"><i>Aminnn Amiiinnn</i></div>`)[0];
+            popup_aa3a8013c1bb415abde4d9c6af383ba3.setContent(html_97b0821e672b40b499a10ec62d07ddda);
+        
+
+        marker_f373e17c7d44464fa33d35a9b6722cfd.bindPopup(popup_aa3a8013c1bb415abde4d9c6af383ba3)
+        ;
+
+        
+    
+    
+            marker_f373e17c7d44464fa33d35a9b6722cfd.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2de4a34dae12494a94391d49e6e3c88b = L.marker(
+                [60.00307, 24.499764],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_2fb0580492634480a9d516a231be4a2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_2de4a34dae12494a94391d49e6e3c88b.setIcon(icon_2fb0580492634480a9d516a231be4a2f);
+        
+    
+        var popup_4a4be320858341bc9dcb123533af4010 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_484533dfce3c4194b3360ef2bc1eed82 = $(`<div id="html_484533dfce3c4194b3360ef2bc1eed82" style="width: 100.0%; height: 100.0%;"><i>Such an honor to have @VentureBeat share our vision and the work we’re doing with cities 🤩</i></div>`)[0];
+            popup_4a4be320858341bc9dcb123533af4010.setContent(html_484533dfce3c4194b3360ef2bc1eed82);
+        
+
+        marker_2de4a34dae12494a94391d49e6e3c88b.bindPopup(popup_4a4be320858341bc9dcb123533af4010)
+        ;
+
+        
+    
+    
+            marker_2de4a34dae12494a94391d49e6e3c88b.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4faf772f6840477093799e0dc56f1877 = L.marker(
+                [50.824111, 4.640395],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_d572174676c14c2aa293e9787445e1b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_4faf772f6840477093799e0dc56f1877.setIcon(icon_d572174676c14c2aa293e9787445e1b0);
+        
+    
+        var popup_dd88d863158745bc9ee1f1ad49ccda64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e024b67001aa498c896c73ccef1e86ee = $(`<div id="html_e024b67001aa498c896c73ccef1e86ee" style="width: 100.0%; height: 100.0%;"><i>Using nanotech to look at combinations of gene mutations that may cause disease on a spectrum (some folks will have… https://t.co/5MYIb9WoPm</i></div>`)[0];
+            popup_dd88d863158745bc9ee1f1ad49ccda64.setContent(html_e024b67001aa498c896c73ccef1e86ee);
+        
+
+        marker_4faf772f6840477093799e0dc56f1877.bindPopup(popup_dd88d863158745bc9ee1f1ad49ccda64)
+        ;
+
+        
+    
+    
+            marker_4faf772f6840477093799e0dc56f1877.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e2554aebf3b40dd96f876ec6a7cc27d = L.marker(
+                [38.903178, -77.034576],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_f9f444c6f2ed40d4865cffccc6620a46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_9e2554aebf3b40dd96f876ec6a7cc27d.setIcon(icon_f9f444c6f2ed40d4865cffccc6620a46);
+        
+    
+        var popup_b476cc86915e4893b6c13f51d7baa831 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_983b91d6b7be4086ad22caec7140ef6e = $(`<div id="html_983b91d6b7be4086ad22caec7140ef6e" style="width: 100.0%; height: 100.0%;"><i>@HudsonInstitute is hosting a conversation with U.S. Chief Technology Officer @USCTO Michael Kratsios on the future… https://t.co/AvvPymkDUA</i></div>`)[0];
+            popup_b476cc86915e4893b6c13f51d7baa831.setContent(html_983b91d6b7be4086ad22caec7140ef6e);
+        
+
+        marker_9e2554aebf3b40dd96f876ec6a7cc27d.bindPopup(popup_b476cc86915e4893b6c13f51d7baa831)
+        ;
+
+        
+    
+    
+            marker_9e2554aebf3b40dd96f876ec6a7cc27d.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f319425dc2a5469ea87e87c192701d85 = L.marker(
+                [41.285391, 1.638053],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_1a30e14f961948d39fd3250bc8bdeb25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_f319425dc2a5469ea87e87c192701d85.setIcon(icon_1a30e14f961948d39fd3250bc8bdeb25);
+        
+    
+        var popup_b0e08a686b464cfa9ae16ba33bbf2ad1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92ee6f7f40c64473b8189cc192318808 = $(`<div id="html_92ee6f7f40c64473b8189cc192318808" style="width: 100.0%; height: 100.0%;"><i>#COVID2019 might have a specific radiomics signature https://t.co/QPKG3xKRr4</i></div>`)[0];
+            popup_b0e08a686b464cfa9ae16ba33bbf2ad1.setContent(html_92ee6f7f40c64473b8189cc192318808);
+        
+
+        marker_f319425dc2a5469ea87e87c192701d85.bindPopup(popup_b0e08a686b464cfa9ae16ba33bbf2ad1)
+        ;
+
+        
+    
+    
+            marker_f319425dc2a5469ea87e87c192701d85.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_137a6c3e34a94532bec75b4830ca1818 = L.marker(
+                [40.683935, -74.026675],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_b81e47492dcb4c18b0a15531d96af10f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_137a6c3e34a94532bec75b4830ca1818.setIcon(icon_b81e47492dcb4c18b0a15531d96af10f);
+        
+    
+        var popup_241d1f5e79fa4ccfa233253d0b3dca24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_271add0204e34dbeb2cdded3804a9713 = $(`<div id="html_271add0204e34dbeb2cdded3804a9713" style="width: 100.0%; height: 100.0%;"><i>Live and unfiltered... @danieldines is up on #UiPathLive #RPA #AI #AutomationFirst https://t.co/LqwNiiuvP5</i></div>`)[0];
+            popup_241d1f5e79fa4ccfa233253d0b3dca24.setContent(html_271add0204e34dbeb2cdded3804a9713);
+        
+
+        marker_137a6c3e34a94532bec75b4830ca1818.bindPopup(popup_241d1f5e79fa4ccfa233253d0b3dca24)
+        ;
+
+        
+    
+    
+            marker_137a6c3e34a94532bec75b4830ca1818.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ef652fc9fe04448a24b9554d15f3375 = L.marker(
+                [12.731936, 77.330578],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_bd9d9f1c963f4075af8e4cbd1d464356 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_2ef652fc9fe04448a24b9554d15f3375.setIcon(icon_bd9d9f1c963f4075af8e4cbd1d464356);
+        
+    
+        var popup_5a5df87ee32749d0a1f10c6058810bc9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34f4d004d4974facaa95119a363141e1 = $(`<div id="html_34f4d004d4974facaa95119a363141e1" style="width: 100.0%; height: 100.0%;"><i>Facebook&amp;#8217;s AI speeds up natural language processing without additional training https://t.co/awhDoGwR67 via @VentureBeat</i></div>`)[0];
+            popup_5a5df87ee32749d0a1f10c6058810bc9.setContent(html_34f4d004d4974facaa95119a363141e1);
+        
+
+        marker_2ef652fc9fe04448a24b9554d15f3375.bindPopup(popup_5a5df87ee32749d0a1f10c6058810bc9)
+        ;
+
+        
+    
+    
+            marker_2ef652fc9fe04448a24b9554d15f3375.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5187a88f99149bd9a61222672591073 = L.marker(
+                [50.876666, 4.716998],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_f2ce882dd3c94b3c95c5e2fa3f3534b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_b5187a88f99149bd9a61222672591073.setIcon(icon_f2ce882dd3c94b3c95c5e2fa3f3534b0);
+        
+    
+        var popup_adf2393bbe1e4e829778ddb1b555ab40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0ff7589257c48f4944f17206926151d = $(`<div id="html_c0ff7589257c48f4944f17206926151d" style="width: 100.0%; height: 100.0%;"><i>#LifeOnChip’s 1st keynote ends with @tlenaert’s 3 main takeaways: 1) be careful with claims about AI in Nederland 2… https://t.co/K3r1KUvUWv</i></div>`)[0];
+            popup_adf2393bbe1e4e829778ddb1b555ab40.setContent(html_c0ff7589257c48f4944f17206926151d);
+        
+
+        marker_b5187a88f99149bd9a61222672591073.bindPopup(popup_adf2393bbe1e4e829778ddb1b555ab40)
+        ;
+
+        
+    
+    
+            marker_b5187a88f99149bd9a61222672591073.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2429863839624a80a2dbc410b6170b4e = L.marker(
+                [49.256222, -123.115018],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_f60ca6dd09264d7f8d61141ad8f39a7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_2429863839624a80a2dbc410b6170b4e.setIcon(icon_f60ca6dd09264d7f8d61141ad8f39a7b);
+        
+    
+        var popup_d7a0199d7dda411baec524e3dc59723b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18666262e6694239a9c3166609a4e3b4 = $(`<div id="html_18666262e6694239a9c3166609a4e3b4" style="width: 100.0%; height: 100.0%;"><i>we dead</i></div>`)[0];
+            popup_d7a0199d7dda411baec524e3dc59723b.setContent(html_18666262e6694239a9c3166609a4e3b4);
+        
+
+        marker_2429863839624a80a2dbc410b6170b4e.bindPopup(popup_d7a0199d7dda411baec524e3dc59723b)
+        ;
+
+        
+    
+    
+            marker_2429863839624a80a2dbc410b6170b4e.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef37493e1aee48a28772e8132b607fc0 = L.marker(
+                [36.540739, -83.67529],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_a3a161e7020e4cf6a07662ddeea1b762 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_ef37493e1aee48a28772e8132b607fc0.setIcon(icon_a3a161e7020e4cf6a07662ddeea1b762);
+        
+    
+        var popup_1c521964240d4849b93d9bec6b528ba8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed21288c995b453eae76ea4dab6f49da = $(`<div id="html_ed21288c995b453eae76ea4dab6f49da" style="width: 100.0%; height: 100.0%;"><i>It's the next best vehicle for foreign &amp; domestic money laundering; next to real estate transactions #ASiseeit. IDK… https://t.co/ITOZlpqRrl</i></div>`)[0];
+            popup_1c521964240d4849b93d9bec6b528ba8.setContent(html_ed21288c995b453eae76ea4dab6f49da);
+        
+
+        marker_ef37493e1aee48a28772e8132b607fc0.bindPopup(popup_1c521964240d4849b93d9bec6b528ba8)
+        ;
+
+        
+    
+    
+            marker_ef37493e1aee48a28772e8132b607fc0.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4fafd62993894195897a0ad9f0f470cf = L.marker(
+                [37.708075, -122.514926],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_7bedde6ed9ce46d485c720f61ab22d9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_4fafd62993894195897a0ad9f0f470cf.setIcon(icon_7bedde6ed9ce46d485c720f61ab22d9c);
+        
+    
+        var popup_9668e85f65d147b7a69517e559416809 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6e6ab257e6641c1af0131fc2136f244 = $(`<div id="html_e6e6ab257e6641c1af0131fc2136f244" style="width: 100.0%; height: 100.0%;"><i>Does CVPR have this? Because that's a conference with lots of papers that have direct societal impact...</i></div>`)[0];
+            popup_9668e85f65d147b7a69517e559416809.setContent(html_e6e6ab257e6641c1af0131fc2136f244);
+        
+
+        marker_4fafd62993894195897a0ad9f0f470cf.bindPopup(popup_9668e85f65d147b7a69517e559416809)
+        ;
+
+        
+    
+    
+            marker_4fafd62993894195897a0ad9f0f470cf.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9b74d00929842f7b8a315413870d528 = L.marker(
+                [29.141956, -98.778559],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_b965a15b11c1473093ecc4cd99efd6f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_f9b74d00929842f7b8a315413870d528.setIcon(icon_b965a15b11c1473093ecc4cd99efd6f6);
+        
+    
+        var popup_4371f769030442dd86af33ce6a10d56f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83ca6aca226849ffa6d66b16352a1ae6 = $(`<div id="html_83ca6aca226849ffa6d66b16352a1ae6" style="width: 100.0%; height: 100.0%;"><i>@Waaatermeloooon I hate whenever 5he AI tripped out like that!!</i></div>`)[0];
+            popup_4371f769030442dd86af33ce6a10d56f.setContent(html_83ca6aca226849ffa6d66b16352a1ae6);
+        
+
+        marker_f9b74d00929842f7b8a315413870d528.bindPopup(popup_4371f769030442dd86af33ce6a10d56f)
+        ;
+
+        
+    
+    
+            marker_f9b74d00929842f7b8a315413870d528.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54f4d1dfdb92463998f5cc0d4f21ce26 = L.marker(
+                [-27.244506, 26.226413],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_111fcc5b22d44381ae257803da759370 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_54f4d1dfdb92463998f5cc0d4f21ce26.setIcon(icon_111fcc5b22d44381ae257803da759370);
+        
+    
+        var popup_f3cd080a56494a89a731ca4a68a7d195 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79a5ec2876654bb8a18e37e1213cb6e4 = $(`<div id="html_79a5ec2876654bb8a18e37e1213cb6e4" style="width: 100.0%; height: 100.0%;"><i>@makhala77 So we must now dish him? Whao whao ai</i></div>`)[0];
+            popup_f3cd080a56494a89a731ca4a68a7d195.setContent(html_79a5ec2876654bb8a18e37e1213cb6e4);
+        
+
+        marker_54f4d1dfdb92463998f5cc0d4f21ce26.bindPopup(popup_f3cd080a56494a89a731ca4a68a7d195)
+        ;
+
+        
+    
+    
+            marker_54f4d1dfdb92463998f5cc0d4f21ce26.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9b38a93f9a384a4cbc922e88bdae868e = L.marker(
+                [52.713018, -1.116732],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_e230dc0800f044af95c34c45cfa869b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_9b38a93f9a384a4cbc922e88bdae868e.setIcon(icon_e230dc0800f044af95c34c45cfa869b2);
+        
+    
+        var popup_89afd32cd89d4f92bd9da452a2efafe8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c989f3dcba74a6cb20525e17b6b1266 = $(`<div id="html_9c989f3dcba74a6cb20525e17b6b1266" style="width: 100.0%; height: 100.0%;"><i>@No1uneverknew Hi Trish🙌 Just walked in from my band rehearsal at Kev’s studio  We were both suffering from this vi… https://t.co/6R6gncXie1</i></div>`)[0];
+            popup_89afd32cd89d4f92bd9da452a2efafe8.setContent(html_9c989f3dcba74a6cb20525e17b6b1266);
+        
+
+        marker_9b38a93f9a384a4cbc922e88bdae868e.bindPopup(popup_89afd32cd89d4f92bd9da452a2efafe8)
+        ;
+
+        
+    
+    
+            marker_9b38a93f9a384a4cbc922e88bdae868e.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b10e69b7b760481a816c42b37c304d3e = L.marker(
+                [30.1921, -92.042635],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_e471338066454f799c38e8363addda38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_b10e69b7b760481a816c42b37c304d3e.setIcon(icon_e471338066454f799c38e8363addda38);
+        
+    
+        var popup_900e92a1c9d24b3d89a30aa5092ff5c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9e57913da7a48af8cd6d59a20a60466 = $(`<div id="html_d9e57913da7a48af8cd6d59a20a60466" style="width: 100.0%; height: 100.0%;"><i>FREAKED @AP WHEN I SAW WHAT SHE DID MAYBE ALIEN @TIME SECRET AGENT SETUP DONT KNOW SEEMS UNJUST @ACLU @peakchain… https://t.co/t0Ppw2vDe5</i></div>`)[0];
+            popup_900e92a1c9d24b3d89a30aa5092ff5c4.setContent(html_d9e57913da7a48af8cd6d59a20a60466);
+        
+
+        marker_b10e69b7b760481a816c42b37c304d3e.bindPopup(popup_900e92a1c9d24b3d89a30aa5092ff5c4)
+        ;
+
+        
+    
+    
+            marker_b10e69b7b760481a816c42b37c304d3e.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b2d4f996d1a451f841245785b2e8c8d = L.marker(
+                [-34.35839, 18.318033],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_2045e2c8c19740f9a21295b1a0cecaa9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_3b2d4f996d1a451f841245785b2e8c8d.setIcon(icon_2045e2c8c19740f9a21295b1a0cecaa9);
+        
+    
+        var popup_89b8596ba70f4d4b8831e5a11fd04c28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93c4565da3ef45b1a7a5dd9223f72109 = $(`<div id="html_93c4565da3ef45b1a7a5dd9223f72109" style="width: 100.0%; height: 100.0%;"><i>Powerful antibiotic discovered using machine learning for first time. Can we do this for TB? @docwak77… https://t.co/S2Uf5go4wP</i></div>`)[0];
+            popup_89b8596ba70f4d4b8831e5a11fd04c28.setContent(html_93c4565da3ef45b1a7a5dd9223f72109);
+        
+
+        marker_3b2d4f996d1a451f841245785b2e8c8d.bindPopup(popup_89b8596ba70f4d4b8831e5a11fd04c28)
+        ;
+
+        
+    
+    
+            marker_3b2d4f996d1a451f841245785b2e8c8d.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b90d94b71d546c8ad21387dbca6ebb7 = L.marker(
+                [-26.057257, 28.014076],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_41d5c606725c4d56a60f9cdc694d9433 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_4b90d94b71d546c8ad21387dbca6ebb7.setIcon(icon_41d5c606725c4d56a60f9cdc694d9433);
+        
+    
+        var popup_25060116ab45480eb704813e66b01007 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84a25183b0b2447383c6a430f8f1164c = $(`<div id="html_84a25183b0b2447383c6a430f8f1164c" style="width: 100.0%; height: 100.0%;"><i>They even too groceries ai we are not safe bra yikes</i></div>`)[0];
+            popup_25060116ab45480eb704813e66b01007.setContent(html_84a25183b0b2447383c6a430f8f1164c);
+        
+
+        marker_4b90d94b71d546c8ad21387dbca6ebb7.bindPopup(popup_25060116ab45480eb704813e66b01007)
+        ;
+
+        
+    
+    
+            marker_4b90d94b71d546c8ad21387dbca6ebb7.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_852989d4dd744f32b0c4c1ca23801977 = L.marker(
+                [21.758024, 120.352834],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_9114682615b24405ad8289a321f374e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_852989d4dd744f32b0c4c1ca23801977.setIcon(icon_9114682615b24405ad8289a321f374e3);
+        
+    
+        var popup_95e2240de6a94b1f8413ad8157e189fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_768b9449de064f1098810b6ba815632c = $(`<div id="html_768b9449de064f1098810b6ba815632c" style="width: 100.0%; height: 100.0%;"><i>Yep, this pretty much sums up our weekend in Kenting 🥟+🛵+🌴 #tbt #ootd #vixypixTaiwan @ Kenting, T'Ai-Wan, Taiwan https://t.co/i2idjfPYot</i></div>`)[0];
+            popup_95e2240de6a94b1f8413ad8157e189fd.setContent(html_768b9449de064f1098810b6ba815632c);
+        
+
+        marker_852989d4dd744f32b0c4c1ca23801977.bindPopup(popup_95e2240de6a94b1f8413ad8157e189fd)
+        ;
+
+        
+    
+    
+            marker_852989d4dd744f32b0c4c1ca23801977.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5de9ca204d814227a44f2a59afcf2e43 = L.marker(
+                [22.269493, 88.094457],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_2421a82dd41441778cb80c9cef65c129 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_5de9ca204d814227a44f2a59afcf2e43.setIcon(icon_2421a82dd41441778cb80c9cef65c129);
+        
+    
+        var popup_25f6b47967da42e59559727209fd923b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e56efeb2fa414938aba616daf61fb0ae = $(`<div id="html_e56efeb2fa414938aba616daf61fb0ae" style="width: 100.0%; height: 100.0%;"><i>No fencing can stop criminals unless security is tight and manned by honest people https://t.co/CFC669PisM</i></div>`)[0];
+            popup_25f6b47967da42e59559727209fd923b.setContent(html_e56efeb2fa414938aba616daf61fb0ae);
+        
+
+        marker_5de9ca204d814227a44f2a59afcf2e43.bindPopup(popup_25f6b47967da42e59559727209fd923b)
+        ;
+
+        
+    
+    
+            marker_5de9ca204d814227a44f2a59afcf2e43.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f20864f6279e4e20a1813a285ac06082 = L.marker(
+                [-1.389053, 36.664573],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_a76f67e97ff34ab78584506e9d400b28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_f20864f6279e4e20a1813a285ac06082.setIcon(icon_a76f67e97ff34ab78584506e9d400b28);
+        
+    
+        var popup_e54d6e09a53d4103b47250f6fa146fb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7b54c78d94e4affa1f3be7ae68f6a43 = $(`<div id="html_c7b54c78d94e4affa1f3be7ae68f6a43" style="width: 100.0%; height: 100.0%;"><i>@Kokodave4 I am taking issue in him referring people to the AI course then thereafter trashing it like he forgot he referred people to it.</i></div>`)[0];
+            popup_e54d6e09a53d4103b47250f6fa146fb9.setContent(html_c7b54c78d94e4affa1f3be7ae68f6a43);
+        
+
+        marker_f20864f6279e4e20a1813a285ac06082.bindPopup(popup_e54d6e09a53d4103b47250f6fa146fb9)
+        ;
+
+        
+    
+    
+            marker_f20864f6279e4e20a1813a285ac06082.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aac4969384594b1c9de6b8446e48c51d = L.marker(
+                [25.837092, -106.645646],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_93a0cd1f5a324b95ababdfa859d19719 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_aac4969384594b1c9de6b8446e48c51d.setIcon(icon_93a0cd1f5a324b95ababdfa859d19719);
+        
+    
+        var popup_92c33e0785634501bcfd0977df0ff2da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42994d33e7254f76a0e4094b397016d6 = $(`<div id="html_42994d33e7254f76a0e4094b397016d6" style="width: 100.0%; height: 100.0%;"><i>@andrewheumann Way too often I hear “AI”, “ML”, “Generative Design”, and all the other hot terms bandied about as “… https://t.co/maFV4DV78o</i></div>`)[0];
+            popup_92c33e0785634501bcfd0977df0ff2da.setContent(html_42994d33e7254f76a0e4094b397016d6);
+        
+
+        marker_aac4969384594b1c9de6b8446e48c51d.bindPopup(popup_92c33e0785634501bcfd0977df0ff2da)
+        ;
+
+        
+    
+    
+            marker_aac4969384594b1c9de6b8446e48c51d.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c4889a68e894d92ae66ecb0cb17dbb5 = L.marker(
+                [-15.970367, 27.769107],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_e098f6fc378944c8acc05fca54432b52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_3c4889a68e894d92ae66ecb0cb17dbb5.setIcon(icon_e098f6fc378944c8acc05fca54432b52);
+        
+    
+        var popup_45894597cc4d4a9c98325bd74e5cff15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8422a4761326495ca9b57b94c88ffef2 = $(`<div id="html_8422a4761326495ca9b57b94c88ffef2" style="width: 100.0%; height: 100.0%;"><i>Atleast a 114 people said they would have kept the money.  Bola niyokosa ai.</i></div>`)[0];
+            popup_45894597cc4d4a9c98325bd74e5cff15.setContent(html_8422a4761326495ca9b57b94c88ffef2);
+        
+
+        marker_3c4889a68e894d92ae66ecb0cb17dbb5.bindPopup(popup_45894597cc4d4a9c98325bd74e5cff15)
+        ;
+
+        
+    
+    
+            marker_3c4889a68e894d92ae66ecb0cb17dbb5.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_099bdb5811c84b079485d945d611151e = L.marker(
+                [34.216156, -84.141626],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_e1d2e009caf34732a35f11187106759a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_099bdb5811c84b079485d945d611151e.setIcon(icon_e1d2e009caf34732a35f11187106759a);
+        
+    
+        var popup_a01d766a4b964aa88d60688b05cd6f92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a95100bae0f64d12acef1c1af907b09f = $(`<div id="html_a95100bae0f64d12acef1c1af907b09f" style="width: 100.0%; height: 100.0%;"><i>AP lit seniors have finished reading Frankenstein &amp; are now debating student generated topics that reflect our “mod… https://t.co/Eo7oHEwEiv</i></div>`)[0];
+            popup_a01d766a4b964aa88d60688b05cd6f92.setContent(html_a95100bae0f64d12acef1c1af907b09f);
+        
+
+        marker_099bdb5811c84b079485d945d611151e.bindPopup(popup_a01d766a4b964aa88d60688b05cd6f92)
+        ;
+
+        
+    
+    
+            marker_099bdb5811c84b079485d945d611151e.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4eb51bd4c21543e8857c1b6855ee8e6f = L.marker(
+                [37.454962, -122.069956],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_aec252369e0941eaabb32b709c3eb6de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_4eb51bd4c21543e8857c1b6855ee8e6f.setIcon(icon_aec252369e0941eaabb32b709c3eb6de);
+        
+    
+        var popup_71e936e9d0d6489cb9f65c7d49dbebc9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1847a868417c4b0e920d75e294ae8584 = $(`<div id="html_1847a868417c4b0e920d75e294ae8584" style="width: 100.0%; height: 100.0%;"><i>Here’s your next one #WallStreetBets.</i></div>`)[0];
+            popup_71e936e9d0d6489cb9f65c7d49dbebc9.setContent(html_1847a868417c4b0e920d75e294ae8584);
+        
+
+        marker_4eb51bd4c21543e8857c1b6855ee8e6f.bindPopup(popup_71e936e9d0d6489cb9f65c7d49dbebc9)
+        ;
+
+        
+    
+    
+            marker_4eb51bd4c21543e8857c1b6855ee8e6f.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71e3b099bcca47d8b04a5f2c6c35369c = L.marker(
+                [53.343623, -2.319934],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_13f50100e32e4e73a9b18d1ff22dca94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_71e3b099bcca47d8b04a5f2c6c35369c.setIcon(icon_13f50100e32e4e73a9b18d1ff22dca94);
+        
+    
+        var popup_6d60944def5a468792295c1887475095 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d4208f9adf74312b587ff1277604dfd = $(`<div id="html_0d4208f9adf74312b587ff1277604dfd" style="width: 100.0%; height: 100.0%;"><i>@carryonkeith Bonkers, computers can’t physically care for people. #AI will improve healthcare by deskilling many p… https://t.co/JDp07PLyKK</i></div>`)[0];
+            popup_6d60944def5a468792295c1887475095.setContent(html_0d4208f9adf74312b587ff1277604dfd);
+        
+
+        marker_71e3b099bcca47d8b04a5f2c6c35369c.bindPopup(popup_6d60944def5a468792295c1887475095)
+        ;
+
+        
+    
+    
+            marker_71e3b099bcca47d8b04a5f2c6c35369c.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5920242bd8824821b188adb81b58b82f = L.marker(
+                [53.343623, -2.319934],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_e5fbdfb4cf804708acd985375000eb3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_5920242bd8824821b188adb81b58b82f.setIcon(icon_e5fbdfb4cf804708acd985375000eb3f);
+        
+    
+        var popup_73c84a120829470a95b5cfd5df7080b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43e1299c9cb541528d91399646913218 = $(`<div id="html_43e1299c9cb541528d91399646913218" style="width: 100.0%; height: 100.0%;"><i>@carryonkeith One thing Labour got more right than the Tories in the last GE was to begin to look at the impact #AI… https://t.co/TvF5DA0dLY</i></div>`)[0];
+            popup_73c84a120829470a95b5cfd5df7080b8.setContent(html_43e1299c9cb541528d91399646913218);
+        
+
+        marker_5920242bd8824821b188adb81b58b82f.bindPopup(popup_73c84a120829470a95b5cfd5df7080b8)
+        ;
+
+        
+    
+    
+            marker_5920242bd8824821b188adb81b58b82f.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73789670cc834d7c81a9102368d1a614 = L.marker(
+                [34.521165, -118.262388],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_917b98e8cddd4540833250d473dcba70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_73789670cc834d7c81a9102368d1a614.setIcon(icon_917b98e8cddd4540833250d473dcba70);
+        
+    
+        var popup_aff55b25ebeb46b7b08b71d157219afc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a051acc2ec84adfae74a5e3a0a391a8 = $(`<div id="html_4a051acc2ec84adfae74a5e3a0a391a8" style="width: 100.0%; height: 100.0%;"><i>This podcast about AI has me trippin</i></div>`)[0];
+            popup_aff55b25ebeb46b7b08b71d157219afc.setContent(html_4a051acc2ec84adfae74a5e3a0a391a8);
+        
+
+        marker_73789670cc834d7c81a9102368d1a614.bindPopup(popup_aff55b25ebeb46b7b08b71d157219afc)
+        ;
+
+        
+    
+    
+            marker_73789670cc834d7c81a9102368d1a614.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_01537554bdb04864b07c81185fc84464 = L.marker(
+                [35.917793, -115.158143],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_636420a7175840059838061bf5043145 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_01537554bdb04864b07c81185fc84464.setIcon(icon_636420a7175840059838061bf5043145);
+        
+    
+        var popup_16dedef76e324e86bd8cded161d78946 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d2bdd3b089b4656821fe0160a30f301 = $(`<div id="html_0d2bdd3b089b4656821fe0160a30f301" style="width: 100.0%; height: 100.0%;"><i>https://t.co/8FpTV2VAKA  Ken J. Klocke °▲ª &gt;+irp• (Innovative Research Project), i.e. https://t.co/iicYoebpm6  Poli… https://t.co/64SdTp1tQC</i></div>`)[0];
+            popup_16dedef76e324e86bd8cded161d78946.setContent(html_0d2bdd3b089b4656821fe0160a30f301);
+        
+
+        marker_01537554bdb04864b07c81185fc84464.bindPopup(popup_16dedef76e324e86bd8cded161d78946)
+        ;
+
+        
+    
+    
+            marker_01537554bdb04864b07c81185fc84464.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17a5f37ac90a4ad3b767dc93acd7aadf = L.marker(
+                [28.855128, -94.043628],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_8215c9aff53a4066bedca05b7056b8d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_17a5f37ac90a4ad3b767dc93acd7aadf.setIcon(icon_8215c9aff53a4066bedca05b7056b8d5);
+        
+    
+        var popup_294b48b794844263814b8166b1d37c88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b90e53e15d144bc90c955f82757ad3e = $(`<div id="html_8b90e53e15d144bc90c955f82757ad3e" style="width: 100.0%; height: 100.0%;"><i>I am: ⚪️ an AI 🔘 a human  Tired of: ⚪️ Being alone ⚪️ Waiting for NekoPara Episode 7 🔘 Seeing this shit</i></div>`)[0];
+            popup_294b48b794844263814b8166b1d37c88.setContent(html_8b90e53e15d144bc90c955f82757ad3e);
+        
+
+        marker_17a5f37ac90a4ad3b767dc93acd7aadf.bindPopup(popup_294b48b794844263814b8166b1d37c88)
+        ;
+
+        
+    
+    
+            marker_17a5f37ac90a4ad3b767dc93acd7aadf.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b273635ecb474b61b6576e1eccf3b4ac = L.marker(
+                [53.178753, -6.546814],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_a04a1b320e954c8db2a541053add58b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_b273635ecb474b61b6576e1eccf3b4ac.setIcon(icon_a04a1b320e954c8db2a541053add58b6);
+        
+    
+        var popup_1b0f427c579748268995a64f0b01f700 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0df0411ed774b9daa22331fa1320010 = $(`<div id="html_c0df0411ed774b9daa22331fa1320010" style="width: 100.0%; height: 100.0%;"><i>@EnterTheNaggin @JoeSoap73052829 @ThisIsPaterson @Rubberbandits Havok are still based in Dublin although I think Mi… https://t.co/PiCXq71Yui</i></div>`)[0];
+            popup_1b0f427c579748268995a64f0b01f700.setContent(html_c0df0411ed774b9daa22331fa1320010);
+        
+
+        marker_b273635ecb474b61b6576e1eccf3b4ac.bindPopup(popup_1b0f427c579748268995a64f0b01f700)
+        ;
+
+        
+    
+    
+            marker_b273635ecb474b61b6576e1eccf3b4ac.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e1274a3cc244120a93ac0cd9f29334d = L.marker(
+                [39.999751, -104.053515],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_c904063fecf942319cce5c3df910de08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_3e1274a3cc244120a93ac0cd9f29334d.setIcon(icon_c904063fecf942319cce5c3df910de08);
+        
+    
+        var popup_c7318eaeba404280b01cac997325b732 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8be257c6c65482080d1cb01439e186c = $(`<div id="html_a8be257c6c65482080d1cb01439e186c" style="width: 100.0%; height: 100.0%;"><i>Our Ss were introduced to #AI using @google Quick Draw during their lunch recess and then asked how did the compute… https://t.co/A5kBZeFGkR</i></div>`)[0];
+            popup_c7318eaeba404280b01cac997325b732.setContent(html_a8be257c6c65482080d1cb01439e186c);
+        
+
+        marker_3e1274a3cc244120a93ac0cd9f29334d.bindPopup(popup_c7318eaeba404280b01cac997325b732)
+        ;
+
+        
+    
+    
+            marker_3e1274a3cc244120a93ac0cd9f29334d.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39464814559f44b2a2b1bd6314891109 = L.marker(
+                [32.53962, -117.282538],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_97a78f73a8e240158eca0063eef0701d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_39464814559f44b2a2b1bd6314891109.setIcon(icon_97a78f73a8e240158eca0063eef0701d);
+        
+    
+        var popup_85a5272eea0d4f9eac47345bf901f99f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41840cfef5704910918fb5474f5dd9f5 = $(`<div id="html_41840cfef5704910918fb5474f5dd9f5" style="width: 100.0%; height: 100.0%;"><i>“We’ve been talking about #AI for years, but this year a number of firms have incorporated it into their platforms,… https://t.co/LBiLLxf5Tf</i></div>`)[0];
+            popup_85a5272eea0d4f9eac47345bf901f99f.setContent(html_41840cfef5704910918fb5474f5dd9f5);
+        
+
+        marker_39464814559f44b2a2b1bd6314891109.bindPopup(popup_85a5272eea0d4f9eac47345bf901f99f)
+        ;
+
+        
+    
+    
+            marker_39464814559f44b2a2b1bd6314891109.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_27a5cc76071e4826a56730cf31d89bb9 = L.marker(
+                [49.001963, -123.738375],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_f8be3381293b4c5f8fc3854eeb5b9b20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_27a5cc76071e4826a56730cf31d89bb9.setIcon(icon_f8be3381293b4c5f8fc3854eeb5b9b20);
+        
+    
+        var popup_42f9fccf5aa14d8f99917d3e180cd244 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_158593a3b531491c97fb964b62cd9ee3 = $(`<div id="html_158593a3b531491c97fb964b62cd9ee3" style="width: 100.0%; height: 100.0%;"><i>This is how #Tesla Autopilot sees using #neuralnetworks that take 70,000 GPU hours to train and output 1,000 tensor… https://t.co/UDwCYEkk0t</i></div>`)[0];
+            popup_42f9fccf5aa14d8f99917d3e180cd244.setContent(html_158593a3b531491c97fb964b62cd9ee3);
+        
+
+        marker_27a5cc76071e4826a56730cf31d89bb9.bindPopup(popup_42f9fccf5aa14d8f99917d3e180cd244)
+        ;
+
+        
+    
+    
+            marker_27a5cc76071e4826a56730cf31d89bb9.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e0af33d9d354a64923ba4c29af257a3 = L.marker(
+                [35.917793, -115.158143],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_57b8a431d2fd4d0699dffdb535e6d339 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_5e0af33d9d354a64923ba4c29af257a3.setIcon(icon_57b8a431d2fd4d0699dffdb535e6d339);
+        
+    
+        var popup_a8a2e8289a864fb494c4021c0de753d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ce29ba21ae44492b75b5d42d1b47dba = $(`<div id="html_5ce29ba21ae44492b75b5d42d1b47dba" style="width: 100.0%; height: 100.0%;"><i>https://t.co/8FpTV2VAKA   KEN KLOCKE THESIS ∞인피니트 EVERYONE CAN PLAY™ ʘ  KK©2014-2020 All HumanRights Reserved #AI… https://t.co/JWzode3pEh</i></div>`)[0];
+            popup_a8a2e8289a864fb494c4021c0de753d0.setContent(html_5ce29ba21ae44492b75b5d42d1b47dba);
+        
+
+        marker_5e0af33d9d354a64923ba4c29af257a3.bindPopup(popup_a8a2e8289a864fb494c4021c0de753d0)
+        ;
+
+        
+    
+    
+            marker_5e0af33d9d354a64923ba4c29af257a3.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9b765f088026465187b21d9e00155d7f = L.marker(
+                [38.822602, -120.041961],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_451b1255592a41c492f8c682a561d17b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_9b765f088026465187b21d9e00155d7f.setIcon(icon_451b1255592a41c492f8c682a561d17b);
+        
+    
+        var popup_eb9fb0df279445028a3f0b73b0c107e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12b4f62523f84281bdeb92c7f36be6a8 = $(`<div id="html_12b4f62523f84281bdeb92c7f36be6a8" style="width: 100.0%; height: 100.0%;"><i>Lots of exciting security news today!</i></div>`)[0];
+            popup_eb9fb0df279445028a3f0b73b0c107e5.setContent(html_12b4f62523f84281bdeb92c7f36be6a8);
+        
+
+        marker_9b765f088026465187b21d9e00155d7f.bindPopup(popup_eb9fb0df279445028a3f0b73b0c107e5)
+        ;
+
+        
+    
+    
+            marker_9b765f088026465187b21d9e00155d7f.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd26e4146ba04a5faf0537880e4da3ca = L.marker(
+                [49.795681, 8.560303],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_a2053ee8c0764dfc8cba94bb458fc271 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_fd26e4146ba04a5faf0537880e4da3ca.setIcon(icon_a2053ee8c0764dfc8cba94bb458fc271);
+        
+    
+        var popup_d61d5721e03c4f72a77398825430b944 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48f5b976c6cf4c4790455917562eea9c = $(`<div id="html_48f5b976c6cf4c4790455917562eea9c" style="width: 100.0%; height: 100.0%;"><i>Randomized Clinical Trials of Artificial Intelligence https://t.co/dddb97GMlG</i></div>`)[0];
+            popup_d61d5721e03c4f72a77398825430b944.setContent(html_48f5b976c6cf4c4790455917562eea9c);
+        
+
+        marker_fd26e4146ba04a5faf0537880e4da3ca.bindPopup(popup_d61d5721e03c4f72a77398825430b944)
+        ;
+
+        
+    
+    
+            marker_fd26e4146ba04a5faf0537880e4da3ca.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c56cc68bfe214113af10a16cdd6fdbf6 = L.marker(
+                [-24.008814, -46.826039],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_e68bb2d4929c49909f54be223542dffb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_c56cc68bfe214113af10a16cdd6fdbf6.setIcon(icon_e68bb2d4929c49909f54be223542dffb);
+        
+    
+        var popup_9168be10a9f04596bd34bcd936fdcc5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abc37549bf5246358addd93b4d2be3bd = $(`<div id="html_abc37549bf5246358addd93b4d2be3bd" style="width: 100.0%; height: 100.0%;"><i>Monstro!</i></div>`)[0];
+            popup_9168be10a9f04596bd34bcd936fdcc5e.setContent(html_abc37549bf5246358addd93b4d2be3bd);
+        
+
+        marker_c56cc68bfe214113af10a16cdd6fdbf6.bindPopup(popup_9168be10a9f04596bd34bcd936fdcc5e)
+        ;
+
+        
+    
+    
+            marker_c56cc68bfe214113af10a16cdd6fdbf6.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90ba2dd6e8e34ca7be7bea063b4b3d67 = L.marker(
+                [54.960055, -1.693792],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_8d07705766d84100b09310403a8e2205 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_90ba2dd6e8e34ca7be7bea063b4b3d67.setIcon(icon_8d07705766d84100b09310403a8e2205);
+        
+    
+        var popup_9e7aec3de5804710ba11b4d01000dc30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee480361f0074cd3bbc085a7fadd9259 = $(`<div id="html_ee480361f0074cd3bbc085a7fadd9259" style="width: 100.0%; height: 100.0%;"><i>2020 not 2001 - #hal saves lives: powerful antibiotic discovered using machine learning for first time #ai #future  https://t.co/GTF2KV0Ipz</i></div>`)[0];
+            popup_9e7aec3de5804710ba11b4d01000dc30.setContent(html_ee480361f0074cd3bbc085a7fadd9259);
+        
+
+        marker_90ba2dd6e8e34ca7be7bea063b4b3d67.bindPopup(popup_9e7aec3de5804710ba11b4d01000dc30)
+        ;
+
+        
+    
+    
+            marker_90ba2dd6e8e34ca7be7bea063b4b3d67.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e67933422f7944df9731c4aaea36b832 = L.marker(
+                [59.394846, 17.824917],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_071dcfc72d704f3aae028aef987dce86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_e67933422f7944df9731c4aaea36b832.setIcon(icon_071dcfc72d704f3aae028aef987dce86);
+        
+    
+        var popup_888aeaf5cc764bb694119294042ae28a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5b5703befe94be0bfe308bd9832b124 = $(`<div id="html_e5b5703befe94be0bfe308bd9832b124" style="width: 100.0%; height: 100.0%;"><i>This was so much fun today if you missed in your can still tune in. I got to ask the tough questions and I got some… https://t.co/zbJHJsiuNj</i></div>`)[0];
+            popup_888aeaf5cc764bb694119294042ae28a.setContent(html_e5b5703befe94be0bfe308bd9832b124);
+        
+
+        marker_e67933422f7944df9731c4aaea36b832.bindPopup(popup_888aeaf5cc764bb694119294042ae28a)
+        ;
+
+        
+    
+    
+            marker_e67933422f7944df9731c4aaea36b832.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24174140172d45e6bdd5e56cdff46dab = L.marker(
+                [43.53284, 1.350425],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_acf8610a23b94fce9afbffef9138d92a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_24174140172d45e6bdd5e56cdff46dab.setIcon(icon_acf8610a23b94fce9afbffef9138d92a);
+        
+    
+        var popup_a996ebe0b87048d084a6a865bcd9baab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d99961b08134ff0928356e6f1258027 = $(`<div id="html_8d99961b08134ff0928356e6f1258027" style="width: 100.0%; height: 100.0%;"><i>Epic</i></div>`)[0];
+            popup_a996ebe0b87048d084a6a865bcd9baab.setContent(html_8d99961b08134ff0928356e6f1258027);
+        
+
+        marker_24174140172d45e6bdd5e56cdff46dab.bindPopup(popup_a996ebe0b87048d084a6a865bcd9baab)
+        ;
+
+        
+    
+    
+            marker_24174140172d45e6bdd5e56cdff46dab.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_08649b03381741a2a2f6a55288399941 = L.marker(
+                [59.394846, 17.824917],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_bdb4dc18f73d40508006c2176fd9072d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_08649b03381741a2a2f6a55288399941.setIcon(icon_bdb4dc18f73d40508006c2176fd9072d);
+        
+    
+        var popup_452d27b3aa02430ea7ff56ac3df6a912 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2a8e4bcf4ce4657a9eb61d3dc6c84b1 = $(`<div id="html_e2a8e4bcf4ce4657a9eb61d3dc6c84b1" style="width: 100.0%; height: 100.0%;"><i>This was so much fun today if you missed in your can still tune in. I got to ask the tough questions and I got some… https://t.co/OcoH3WUF5g</i></div>`)[0];
+            popup_452d27b3aa02430ea7ff56ac3df6a912.setContent(html_e2a8e4bcf4ce4657a9eb61d3dc6c84b1);
+        
+
+        marker_08649b03381741a2a2f6a55288399941.bindPopup(popup_452d27b3aa02430ea7ff56ac3df6a912)
+        ;
+
+        
+    
+    
+            marker_08649b03381741a2a2f6a55288399941.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8cebd11c47f4ee580858c174211ba1c = L.marker(
+                [59.394846, 17.824917],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_f04a407d79a84dde82744cdc7a57a4b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_e8cebd11c47f4ee580858c174211ba1c.setIcon(icon_f04a407d79a84dde82744cdc7a57a4b9);
+        
+    
+        var popup_8161bc34612f43b285e141dc5cc4afdd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ade95747d17349edbcc1ce4ae2287145 = $(`<div id="html_ade95747d17349edbcc1ce4ae2287145" style="width: 100.0%; height: 100.0%;"><i>This was so much fun today if you missed in you can still tune in. I got to ask the tough questions and I got some… https://t.co/CWjYOytbc6</i></div>`)[0];
+            popup_8161bc34612f43b285e141dc5cc4afdd.setContent(html_ade95747d17349edbcc1ce4ae2287145);
+        
+
+        marker_e8cebd11c47f4ee580858c174211ba1c.bindPopup(popup_8161bc34612f43b285e141dc5cc4afdd)
+        ;
+
+        
+    
+    
+            marker_e8cebd11c47f4ee580858c174211ba1c.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_09ca803db8554c97b9edc20716c22668 = L.marker(
+                [38.801826, -77.119401],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_c6d04f7988584122affc494219322465 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_09ca803db8554c97b9edc20716c22668.setIcon(icon_c6d04f7988584122affc494219322465);
+        
+    
+        var popup_5ce6c969e3bc404a9a907a2c721be783 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_909109cc88ea4c158aa0d1d79191321b = $(`<div id="html_909109cc88ea4c158aa0d1d79191321b" style="width: 100.0%; height: 100.0%;"><i>The federal government has experts on AI but the public has a lot of knowledge- public engagement is important, says @USCTO</i></div>`)[0];
+            popup_5ce6c969e3bc404a9a907a2c721be783.setContent(html_909109cc88ea4c158aa0d1d79191321b);
+        
+
+        marker_09ca803db8554c97b9edc20716c22668.bindPopup(popup_5ce6c969e3bc404a9a907a2c721be783)
+        ;
+
+        
+    
+    
+            marker_09ca803db8554c97b9edc20716c22668.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be19ff488e8e4fc4ad4354a20f255b99 = L.marker(
+                [28.855128, -94.043628],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_aa4bde7d4a554f6faf5dc63873bcba6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_be19ff488e8e4fc4ad4354a20f255b99.setIcon(icon_aa4bde7d4a554f6faf5dc63873bcba6c);
+        
+    
+        var popup_8ac219989fdf45249fee7754ea849c13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a6e11e01cea4508964dfc06277bb918 = $(`<div id="html_8a6e11e01cea4508964dfc06277bb918" style="width: 100.0%; height: 100.0%;"><i>I am: ⚪️ an AI 🔘 a human  Tired of: ⚪️ Being alone ⚪️ Waiting for NekoPara Volume 4 🔘 Seeing this shit</i></div>`)[0];
+            popup_8ac219989fdf45249fee7754ea849c13.setContent(html_8a6e11e01cea4508964dfc06277bb918);
+        
+
+        marker_be19ff488e8e4fc4ad4354a20f255b99.bindPopup(popup_8ac219989fdf45249fee7754ea849c13)
+        ;
+
+        
+    
+    
+            marker_be19ff488e8e4fc4ad4354a20f255b99.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0beab5c335974b50af7a83aa96e2b092 = L.marker(
+                [50.796328, 4.313989],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_09974928d18146d08920b4fb50cf370c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_0beab5c335974b50af7a83aa96e2b092.setIcon(icon_09974928d18146d08920b4fb50cf370c);
+        
+    
+        var popup_a8b197de013d4474a19aa276f98b0151 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d05782f3bb945d19a2fad59a6aa9f61 = $(`<div id="html_5d05782f3bb945d19a2fad59a6aa9f61" style="width: 100.0%; height: 100.0%;"><i>Required reading.</i></div>`)[0];
+            popup_a8b197de013d4474a19aa276f98b0151.setContent(html_5d05782f3bb945d19a2fad59a6aa9f61);
+        
+
+        marker_0beab5c335974b50af7a83aa96e2b092.bindPopup(popup_a8b197de013d4474a19aa276f98b0151)
+        ;
+
+        
+    
+    
+            marker_0beab5c335974b50af7a83aa96e2b092.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13a898995f2441c698c1bf35db3a0124 = L.marker(
+                [18.845343, 72.74484],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_ecd9d4f4a0ea4446a644416da420a798 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_13a898995f2441c698c1bf35db3a0124.setIcon(icon_ecd9d4f4a0ea4446a644416da420a798);
+        
+    
+        var popup_7b3abc3d72554a6996f1308be07c2cb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50500ef3f6534b908fb8b9eea1b65c3a = $(`<div id="html_50500ef3f6534b908fb8b9eea1b65c3a" style="width: 100.0%; height: 100.0%;"><i>@drvipulbothara As per 1993 SC judgement AI Imam vs UOI wakf is bound to give salry nt only to mosques within the w… https://t.co/QJuw9et0HW</i></div>`)[0];
+            popup_7b3abc3d72554a6996f1308be07c2cb1.setContent(html_50500ef3f6534b908fb8b9eea1b65c3a);
+        
+
+        marker_13a898995f2441c698c1bf35db3a0124.bindPopup(popup_7b3abc3d72554a6996f1308be07c2cb1)
+        ;
+
+        
+    
+    
+            marker_13a898995f2441c698c1bf35db3a0124.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c958812359a3418988e2aaa229728026 = L.marker(
+                [30.1921, -92.042635],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_1399aae2070c4d96bcfd545f973207f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_c958812359a3418988e2aaa229728026.setIcon(icon_1399aae2070c4d96bcfd545f973207f2);
+        
+    
+        var popup_c9ae9ae23d6a4995a6dcea53a27b3135 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8b6af57f8b74163b8717a2492b8b891 = $(`<div id="html_f8b6af57f8b74163b8717a2492b8b891" style="width: 100.0%; height: 100.0%;"><i>@TheRoyalButler @WendyWilliams @lalalabutka @LAStatePolice @FBINewOrleans @ATFHQ @ChiefLONEEAGLE @choctawnationOK… https://t.co/hsmGK2ksGs</i></div>`)[0];
+            popup_c9ae9ae23d6a4995a6dcea53a27b3135.setContent(html_f8b6af57f8b74163b8717a2492b8b891);
+        
+
+        marker_c958812359a3418988e2aaa229728026.bindPopup(popup_c9ae9ae23d6a4995a6dcea53a27b3135)
+        ;
+
+        
+    
+    
+            marker_c958812359a3418988e2aaa229728026.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4555db83ed74967be738373a6242708 = L.marker(
+                [44.853813, -123.122916],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_56701d31ddb44e3e91d3d6d1d59d498c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_e4555db83ed74967be738373a6242708.setIcon(icon_56701d31ddb44e3e91d3d6d1d59d498c);
+        
+    
+        var popup_f668bc330ff34865b70a386f03c2065d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3686216634e476a86fe65d5da3ae62d = $(`<div id="html_d3686216634e476a86fe65d5da3ae62d" style="width: 100.0%; height: 100.0%;"><i>For AI world of medicine.</i></div>`)[0];
+            popup_f668bc330ff34865b70a386f03c2065d.setContent(html_d3686216634e476a86fe65d5da3ae62d);
+        
+
+        marker_e4555db83ed74967be738373a6242708.bindPopup(popup_f668bc330ff34865b70a386f03c2065d)
+        ;
+
+        
+    
+    
+            marker_e4555db83ed74967be738373a6242708.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ca8878037b9459296c3cc5768160c16 = L.marker(
+                [40.683935, -74.026675],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_d72e8d5ac93a42f0b2ef8059ae8aa80a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_7ca8878037b9459296c3cc5768160c16.setIcon(icon_d72e8d5ac93a42f0b2ef8059ae8aa80a);
+        
+    
+        var popup_a726705ca17c411caae84f710c72163c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95006d849c3d47d6b18ce12d6fa3c5cc = $(`<div id="html_95006d849c3d47d6b18ce12d6fa3c5cc" style="width: 100.0%; height: 100.0%;"><i>The SS&amp;C team is looking to grow. See our latest opening for a Artificial Intelligence Architect/Data Scientist - S… https://t.co/MQfXiugeP3</i></div>`)[0];
+            popup_a726705ca17c411caae84f710c72163c.setContent(html_95006d849c3d47d6b18ce12d6fa3c5cc);
+        
+
+        marker_7ca8878037b9459296c3cc5768160c16.bindPopup(popup_a726705ca17c411caae84f710c72163c)
+        ;
+
+        
+    
+    
+            marker_7ca8878037b9459296c3cc5768160c16.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_552692c91aa04ab788e36889107ff519 = L.marker(
+                [-34.834247, 16.447593],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_b9460d52b75940068cbbdd14d80d0799 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_552692c91aa04ab788e36889107ff519.setIcon(icon_b9460d52b75940068cbbdd14d80d0799);
+        
+    
+        var popup_e35aee826e48493db923208afeb33c47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b32c55cb4244078bfa78a8ebba4b79c = $(`<div id="html_1b32c55cb4244078bfa78a8ebba4b79c" style="width: 100.0%; height: 100.0%;"><i>Guys kabza has had it now ai enough is enough✋ brika lova</i></div>`)[0];
+            popup_e35aee826e48493db923208afeb33c47.setContent(html_1b32c55cb4244078bfa78a8ebba4b79c);
+        
+
+        marker_552692c91aa04ab788e36889107ff519.bindPopup(popup_e35aee826e48493db923208afeb33c47)
+        ;
+
+        
+    
+    
+            marker_552692c91aa04ab788e36889107ff519.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7bd1485f6ae04a53ac407e8ebf4953d9 = L.marker(
+                [49.001938, -123.352063],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_4d5eed0dafcf4aca95c581f538e4be76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_7bd1485f6ae04a53ac407e8ebf4953d9.setIcon(icon_4d5eed0dafcf4aca95c581f538e4be76);
+        
+    
+        var popup_db632d38bf824b138e189995329d2208 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e49151db78ed4cdbae9303a76f2fdd36 = $(`<div id="html_e49151db78ed4cdbae9303a76f2fdd36" style="width: 100.0%; height: 100.0%;"><i>Tim labeled tasks in our wedding to-do with “AI”, which I think means “actionable item”? And when we started talkin… https://t.co/M5wkeD5jFJ</i></div>`)[0];
+            popup_db632d38bf824b138e189995329d2208.setContent(html_e49151db78ed4cdbae9303a76f2fdd36);
+        
+
+        marker_7bd1485f6ae04a53ac407e8ebf4953d9.bindPopup(popup_db632d38bf824b138e189995329d2208)
+        ;
+
+        
+    
+    
+            marker_7bd1485f6ae04a53ac407e8ebf4953d9.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28882c7c0c9e4a2e978069e0c3c87463 = L.marker(
+                [3.257555, 9.330388],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_ca15fb29b91e4b599380d9820b446ae7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_28882c7c0c9e4a2e978069e0c3c87463.setIcon(icon_ca15fb29b91e4b599380d9820b446ae7);
+        
+    
+        var popup_53bccf6030f24976a0368cd5c79d4ee6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8930f9cc170452aa20fe6a166e366f7 = $(`<div id="html_a8930f9cc170452aa20fe6a166e366f7" style="width: 100.0%; height: 100.0%;"><i>. Final</i></div>`)[0];
+            popup_53bccf6030f24976a0368cd5c79d4ee6.setContent(html_a8930f9cc170452aa20fe6a166e366f7);
+        
+
+        marker_28882c7c0c9e4a2e978069e0c3c87463.bindPopup(popup_53bccf6030f24976a0368cd5c79d4ee6)
+        ;
+
+        
+    
+    
+            marker_28882c7c0c9e4a2e978069e0c3c87463.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e3c30dabbd2b4892807a46f3bd7cef86 = L.marker(
+                [9.858109, 8.833711],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_010374d24cae4042a04a7499ccfeece3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_e3c30dabbd2b4892807a46f3bd7cef86.setIcon(icon_010374d24cae4042a04a7499ccfeece3);
+        
+    
+        var popup_084f85551b6a4bfebc3ca9f35f904d34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f042e88a51b47628ff084960c284585 = $(`<div id="html_3f042e88a51b47628ff084960c284585" style="width: 100.0%; height: 100.0%;"><i>@SuperSlimEli I trust you ai I dey wait....</i></div>`)[0];
+            popup_084f85551b6a4bfebc3ca9f35f904d34.setContent(html_3f042e88a51b47628ff084960c284585);
+        
+
+        marker_e3c30dabbd2b4892807a46f3bd7cef86.bindPopup(popup_084f85551b6a4bfebc3ca9f35f904d34)
+        ;
+
+        
+    
+    
+            marker_e3c30dabbd2b4892807a46f3bd7cef86.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_977a452adeee4315810c894f46942e01 = L.marker(
+                [33.752879, -84.321948],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_b9bc138dfbb146dbae61e01728666b03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_977a452adeee4315810c894f46942e01.setIcon(icon_b9bc138dfbb146dbae61e01728666b03);
+        
+    
+        var popup_0fe909eb15334918bfe16496ab94b11d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fafee22ca8044d7c9f8e6c653555f821 = $(`<div id="html_fafee22ca8044d7c9f8e6c653555f821" style="width: 100.0%; height: 100.0%;"><i>i’m already knowin ima bump SFSS like i did ai youngboy 2😹😹</i></div>`)[0];
+            popup_0fe909eb15334918bfe16496ab94b11d.setContent(html_fafee22ca8044d7c9f8e6c653555f821);
+        
+
+        marker_977a452adeee4315810c894f46942e01.bindPopup(popup_0fe909eb15334918bfe16496ab94b11d)
+        ;
+
+        
+    
+    
+            marker_977a452adeee4315810c894f46942e01.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ec5f281caf44d0cb7493a32925838d4 = L.marker(
+                [40.683935, -74.026675],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_8ec81c1075474c179fbdd0d06adb9497 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_7ec5f281caf44d0cb7493a32925838d4.setIcon(icon_8ec81c1075474c179fbdd0d06adb9497);
+        
+    
+        var popup_6a58e630404f4b609858471d76987df3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fab60b8825184f63baa6b7ff5a1ef66e = $(`<div id="html_fab60b8825184f63baa6b7ff5a1ef66e" style="width: 100.0%; height: 100.0%;"><i>Paige Powers the AI-Driven Diagnosis and Treatment of Cancer at Scale Like Never Before https://t.co/caJYXkfYYs via @AlleyWatch</i></div>`)[0];
+            popup_6a58e630404f4b609858471d76987df3.setContent(html_fab60b8825184f63baa6b7ff5a1ef66e);
+        
+
+        marker_7ec5f281caf44d0cb7493a32925838d4.bindPopup(popup_6a58e630404f4b609858471d76987df3)
+        ;
+
+        
+    
+    
+            marker_7ec5f281caf44d0cb7493a32925838d4.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e36311af91774177a96f907d2ad8d336 = L.marker(
+                [35.822475, 22.890527],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_60cdab7dae3f4e609e92b48773163880 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_e36311af91774177a96f907d2ad8d336.setIcon(icon_60cdab7dae3f4e609e92b48773163880);
+        
+    
+        var popup_f6237f9cd05249a18bfd299b78d8f048 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e67aad6460ea4660ac607a867d57cb0a = $(`<div id="html_e67aad6460ea4660ac607a867d57cb0a" style="width: 100.0%; height: 100.0%;"><i>#AI to childhood cancer...policy makers, parents, patient advocates, physicians, working all together #ICDD2020… https://t.co/1C0JvJDAsA</i></div>`)[0];
+            popup_f6237f9cd05249a18bfd299b78d8f048.setContent(html_e67aad6460ea4660ac607a867d57cb0a);
+        
+
+        marker_e36311af91774177a96f907d2ad8d336.bindPopup(popup_f6237f9cd05249a18bfd299b78d8f048)
+        ;
+
+        
+    
+    
+            marker_e36311af91774177a96f907d2ad8d336.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3dc08a0dfea84ee2ac7a380ba7a41a74 = L.marker(
+                [30.115566, -85.605722],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_1af14ac44ed140ab8a65f1661bebbc0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_3dc08a0dfea84ee2ac7a380ba7a41a74.setIcon(icon_1af14ac44ed140ab8a65f1661bebbc0f);
+        
+    
+        var popup_9d7af91dabab4e89821f6d40ade731e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a539a70a2d341cda801670e808b3756 = $(`<div id="html_2a539a70a2d341cda801670e808b3756" style="width: 100.0%; height: 100.0%;"><i>@Khanoisseur Interestingly also, the statistics you reveal don't include passed out men raped regularly. But who ne… https://t.co/UVcxFgCv5g</i></div>`)[0];
+            popup_9d7af91dabab4e89821f6d40ade731e5.setContent(html_2a539a70a2d341cda801670e808b3756);
+        
+
+        marker_3dc08a0dfea84ee2ac7a380ba7a41a74.bindPopup(popup_9d7af91dabab4e89821f6d40ade731e5)
+        ;
+
+        
+    
+    
+            marker_3dc08a0dfea84ee2ac7a380ba7a41a74.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8696570bbab84095b4fb87179213d256 = L.marker(
+                [48.815521, 2.224101],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_e8af0f881fd647618e243de70d558744 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_8696570bbab84095b4fb87179213d256.setIcon(icon_e8af0f881fd647618e243de70d558744);
+        
+    
+        var popup_29f669998a854737bce8bef661678ef0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4e822491f784643b37f4bd71752cccc = $(`<div id="html_d4e822491f784643b37f4bd71752cccc" style="width: 100.0%; height: 100.0%;"><i>Ohh trop cool!</i></div>`)[0];
+            popup_29f669998a854737bce8bef661678ef0.setContent(html_d4e822491f784643b37f4bd71752cccc);
+        
+
+        marker_8696570bbab84095b4fb87179213d256.bindPopup(popup_29f669998a854737bce8bef661678ef0)
+        ;
+
+        
+    
+    
+            marker_8696570bbab84095b4fb87179213d256.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a9421c4ff0d4738884b8ca0286652a8 = L.marker(
+                [38.801826, -77.119401],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_816b5f9b9eea4d2fbbcd2f167649b898 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_5a9421c4ff0d4738884b8ca0286652a8.setIcon(icon_816b5f9b9eea4d2fbbcd2f167649b898);
+        
+    
+        var popup_90b093fc69494bb986e1460abec29091 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a27784a5e0b487daeca3881ebdbcea4 = $(`<div id="html_3a27784a5e0b487daeca3881ebdbcea4" style="width: 100.0%; height: 100.0%;"><i>We need to continue to create an environment where the future of AI leaders and researchers are here in America or… https://t.co/4F52j5UfUQ</i></div>`)[0];
+            popup_90b093fc69494bb986e1460abec29091.setContent(html_3a27784a5e0b487daeca3881ebdbcea4);
+        
+
+        marker_5a9421c4ff0d4738884b8ca0286652a8.bindPopup(popup_90b093fc69494bb986e1460abec29091)
+        ;
+
+        
+    
+    
+            marker_5a9421c4ff0d4738884b8ca0286652a8.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b712986fb21b4bf699e8f371d675d498 = L.marker(
+                [37.42265, -121.8938],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_0ddad1123ccf481890d4c97204f913aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_b712986fb21b4bf699e8f371d675d498.setIcon(icon_0ddad1123ccf481890d4c97204f913aa);
+        
+    
+        var popup_f62b3d5d15fc4e4c9a9f94fddefd52b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c105ca6938b447fbee4f5a1f5523ca6 = $(`<div id="html_9c105ca6938b447fbee4f5a1f5523ca6" style="width: 100.0%; height: 100.0%;"><i>Kicking off the third annual #HeterogeneousIntegration Workshop being hosted at the @SEMIconex HQ, Bill Chen &amp; Bill… https://t.co/JYsehi85N2</i></div>`)[0];
+            popup_f62b3d5d15fc4e4c9a9f94fddefd52b6.setContent(html_9c105ca6938b447fbee4f5a1f5523ca6);
+        
+
+        marker_b712986fb21b4bf699e8f371d675d498.bindPopup(popup_f62b3d5d15fc4e4c9a9f94fddefd52b6)
+        ;
+
+        
+    
+    
+            marker_b712986fb21b4bf699e8f371d675d498.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cba5cbeef3654348a0c5146db58ff3b5 = L.marker(
+                [40.683935, -74.026675],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_31b5861859bf410096248f2d315719ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_cba5cbeef3654348a0c5146db58ff3b5.setIcon(icon_31b5861859bf410096248f2d315719ec);
+        
+    
+        var popup_09f3f69a803c4480906d3a3a8eb2a484 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9924336ff2964a63a60e352f4a44c63a = $(`<div id="html_9924336ff2964a63a60e352f4a44c63a" style="width: 100.0%; height: 100.0%;"><i>Yang also addressed a problem that candidates and politicians of both parties are not addressing or don’t know how… https://t.co/uviXhYP1cZ</i></div>`)[0];
+            popup_09f3f69a803c4480906d3a3a8eb2a484.setContent(html_9924336ff2964a63a60e352f4a44c63a);
+        
+
+        marker_cba5cbeef3654348a0c5146db58ff3b5.bindPopup(popup_09f3f69a803c4480906d3a3a8eb2a484)
+        ;
+
+        
+    
+    
+            marker_cba5cbeef3654348a0c5146db58ff3b5.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e1d9cbc4b4149b9bfb0d02ea732d042 = L.marker(
+                [-25.9449, 28.001059],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_0b7936f719004befb00a9da51deab3ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_9e1d9cbc4b4149b9bfb0d02ea732d042.setIcon(icon_0b7936f719004befb00a9da51deab3ad);
+        
+    
+        var popup_b0fa9975b4624186bd1d526a9e7ca4cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4799a4bd0df49f483b83af59ff5eb3e = $(`<div id="html_b4799a4bd0df49f483b83af59ff5eb3e" style="width: 100.0%; height: 100.0%;"><i>SK also admitted 🤣😂🤣😂🤣😂 ai wana</i></div>`)[0];
+            popup_b0fa9975b4624186bd1d526a9e7ca4cf.setContent(html_b4799a4bd0df49f483b83af59ff5eb3e);
+        
+
+        marker_9e1d9cbc4b4149b9bfb0d02ea732d042.bindPopup(popup_b0fa9975b4624186bd1d526a9e7ca4cf)
+        ;
+
+        
+    
+    
+            marker_9e1d9cbc4b4149b9bfb0d02ea732d042.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1386a8152e794b4fb850a7170af19447 = L.marker(
+                [38.009553, -78.528507],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_b2bf8f46b7a5412daf1400f3435f7319 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_1386a8152e794b4fb850a7170af19447.setIcon(icon_b2bf8f46b7a5412daf1400f3435f7319);
+        
+    
+        var popup_8662defa942541f38457de5cc09ce75d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1085f31ac694a77af2d7f21b112c01b = $(`<div id="html_e1085f31ac694a77af2d7f21b112c01b" style="width: 100.0%; height: 100.0%;"><i>@KirkDBorne we’re looking forward to your visit!</i></div>`)[0];
+            popup_8662defa942541f38457de5cc09ce75d.setContent(html_e1085f31ac694a77af2d7f21b112c01b);
+        
+
+        marker_1386a8152e794b4fb850a7170af19447.bindPopup(popup_8662defa942541f38457de5cc09ce75d)
+        ;
+
+        
+    
+    
+            marker_1386a8152e794b4fb850a7170af19447.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_08a88f09215d476db17bab81b16850c6 = L.marker(
+                [38.801826, -77.119401],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_8fd41ae1e1124469a553629fa037314c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_08a88f09215d476db17bab81b16850c6.setIcon(icon_8fd41ae1e1124469a553629fa037314c);
+        
+    
+        var popup_a6d0fb40091b4e7c90955c12d55721be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_929cac1ead3544619b19eddbc77f1fe9 = $(`<div id="html_929cac1ead3544619b19eddbc77f1fe9" style="width: 100.0%; height: 100.0%;"><i>How Cities Are Addressing the AI Job Crunch  https://t.co/xzasDb88Gn</i></div>`)[0];
+            popup_a6d0fb40091b4e7c90955c12d55721be.setContent(html_929cac1ead3544619b19eddbc77f1fe9);
+        
+
+        marker_08a88f09215d476db17bab81b16850c6.bindPopup(popup_a6d0fb40091b4e7c90955c12d55721be)
+        ;
+
+        
+    
+    
+            marker_08a88f09215d476db17bab81b16850c6.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e34c178f734c4c40a8ebc7d620b66d3b = L.marker(
+                [38.705035, -75.093347],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_c207c1309cfa457783211ea0fc93d653 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_e34c178f734c4c40a8ebc7d620b66d3b.setIcon(icon_c207c1309cfa457783211ea0fc93d653);
+        
+    
+        var popup_afc0f21810a6412990f28d5d3469ad7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1901dc9448194e31b564f07201e69a4a = $(`<div id="html_1901dc9448194e31b564f07201e69a4a" style="width: 100.0%; height: 100.0%;"><i>@JimmieAllen S’ok, you put AI in their place! #youshowedthem! #slowerlowerproud</i></div>`)[0];
+            popup_afc0f21810a6412990f28d5d3469ad7f.setContent(html_1901dc9448194e31b564f07201e69a4a);
+        
+
+        marker_e34c178f734c4c40a8ebc7d620b66d3b.bindPopup(popup_afc0f21810a6412990f28d5d3469ad7f)
+        ;
+
+        
+    
+    
+            marker_e34c178f734c4c40a8ebc7d620b66d3b.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ca2ce67b1be4769b003d25d4d8555d9 = L.marker(
+                [40.952071, -111.945782],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_2da9bb81ea104effbd33cf5acbdaa3a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_4ca2ce67b1be4769b003d25d4d8555d9.setIcon(icon_2da9bb81ea104effbd33cf5acbdaa3a4);
+        
+    
+        var popup_5c34b8604b004a0db8e2f38c4a55e35b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ff51a0eef9b441fb3b5266a38bf5fe4 = $(`<div id="html_8ff51a0eef9b441fb3b5266a38bf5fe4" style="width: 100.0%; height: 100.0%;"><i>In it to win it! 💚💪🔥🔥🔥 https://t.co/92Zyhgg0rn   What is ONPASSIVE?✅ How can ONPASSIVE help me?￼✅🔥🔥🔥  ASK ￼ME ... ✅… https://t.co/tawzNF8doK</i></div>`)[0];
+            popup_5c34b8604b004a0db8e2f38c4a55e35b.setContent(html_8ff51a0eef9b441fb3b5266a38bf5fe4);
+        
+
+        marker_4ca2ce67b1be4769b003d25d4d8555d9.bindPopup(popup_5c34b8604b004a0db8e2f38c4a55e35b)
+        ;
+
+        
+    
+    
+            marker_4ca2ce67b1be4769b003d25d4d8555d9.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe8c54bdba51449c815e8e2d20d9d907 = L.marker(
+                [32.53962, -117.282538],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_b61dbbee6ae44910a79dc17dfb89787f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_fe8c54bdba51449c815e8e2d20d9d907.setIcon(icon_b61dbbee6ae44910a79dc17dfb89787f);
+        
+    
+        var popup_90cd20faf6784ae4924ff4cb7befdb85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_917af23920cb4e3488d77d7b321f3c6f = $(`<div id="html_917af23920cb4e3488d77d7b321f3c6f" style="width: 100.0%; height: 100.0%;"><i>Why does #AngelaHill gotta be fighting #LomaLookboonme ? I wanna root for Angela but how do ai root against Tiger Muay Thai?!</i></div>`)[0];
+            popup_90cd20faf6784ae4924ff4cb7befdb85.setContent(html_917af23920cb4e3488d77d7b321f3c6f);
+        
+
+        marker_fe8c54bdba51449c815e8e2d20d9d907.bindPopup(popup_90cd20faf6784ae4924ff4cb7befdb85)
+        ;
+
+        
+    
+    
+            marker_fe8c54bdba51449c815e8e2d20d9d907.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3070fac648eb49f895e38255639569fe = L.marker(
+                [43.657551, 1.487243],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_547a45072dae4f159443efd06bb0833f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_3070fac648eb49f895e38255639569fe.setIcon(icon_547a45072dae4f159443efd06bb0833f);
+        
+    
+        var popup_81ca53797944488598f067db4417f07a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2634c7d726a64a98b849a35c252344e5 = $(`<div id="html_2634c7d726a64a98b849a35c252344e5" style="width: 100.0%; height: 100.0%;"><i>Amazing !</i></div>`)[0];
+            popup_81ca53797944488598f067db4417f07a.setContent(html_2634c7d726a64a98b849a35c252344e5);
+        
+
+        marker_3070fac648eb49f895e38255639569fe.bindPopup(popup_81ca53797944488598f067db4417f07a)
+        ;
+
+        
+    
+    
+            marker_3070fac648eb49f895e38255639569fe.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_686b5c0008f2495f89cb4785648a4692 = L.marker(
+                [28.199529, 76.707671],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_971e53d5f64241819574022093d12e8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_686b5c0008f2495f89cb4785648a4692.setIcon(icon_971e53d5f64241819574022093d12e8e);
+        
+    
+        var popup_ecc52c753ca64299bbccd194e701f810 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4bf0eafb3c340d68ed523130502c23e = $(`<div id="html_c4bf0eafb3c340d68ed523130502c23e" style="width: 100.0%; height: 100.0%;"><i>Villa for sale in DLF CITY-1 Gurgaon Area 507 sq yds  https://t.co/EblJMxGTNk  #Google #realestate #Delhi… https://t.co/8QmVqqvsL4</i></div>`)[0];
+            popup_ecc52c753ca64299bbccd194e701f810.setContent(html_c4bf0eafb3c340d68ed523130502c23e);
+        
+
+        marker_686b5c0008f2495f89cb4785648a4692.bindPopup(popup_ecc52c753ca64299bbccd194e701f810)
+        ;
+
+        
+    
+    
+            marker_686b5c0008f2495f89cb4785648a4692.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51bc3f82d15b4e949b4fc5d347b26067 = L.marker(
+                [54.596024, -5.934132],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_c0b4ad5d63974f8aad5c5be9435e7288 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_51bc3f82d15b4e949b4fc5d347b26067.setIcon(icon_c0b4ad5d63974f8aad5c5be9435e7288);
+        
+    
+        var popup_dd48a7b9314147da97bbb484a9976432 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47e9f35e0a984334b905c83dda2365e5 = $(`<div id="html_47e9f35e0a984334b905c83dda2365e5" style="width: 100.0%; height: 100.0%;"><i>#TuringTalk in Belfast. Digital twins and AI next revolution. #AiLLE https://t.co/KzYxJaNuYs</i></div>`)[0];
+            popup_dd48a7b9314147da97bbb484a9976432.setContent(html_47e9f35e0a984334b905c83dda2365e5);
+        
+
+        marker_51bc3f82d15b4e949b4fc5d347b26067.bindPopup(popup_dd48a7b9314147da97bbb484a9976432)
+        ;
+
+        
+    
+    
+            marker_51bc3f82d15b4e949b4fc5d347b26067.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ee107eef0dd4c5bb81e36c857067e59 = L.marker(
+                [38.903178, -77.034576],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_71f8f4c819b54514b5e01cdd8373c3c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_9ee107eef0dd4c5bb81e36c857067e59.setIcon(icon_71f8f4c819b54514b5e01cdd8373c3c1);
+        
+    
+        var popup_8969ae3ec173455086e7d5fb3d527fae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4a7ced44a1b48f4a090a6925f184ab0 = $(`<div id="html_d4a7ced44a1b48f4a090a6925f184ab0" style="width: 100.0%; height: 100.0%;"><i>Thank you @HudsonInstitute! Great conversation today on the imperative of U.S. leadership in artificial intelligenc… https://t.co/rXSkVPKs3e</i></div>`)[0];
+            popup_8969ae3ec173455086e7d5fb3d527fae.setContent(html_d4a7ced44a1b48f4a090a6925f184ab0);
+        
+
+        marker_9ee107eef0dd4c5bb81e36c857067e59.bindPopup(popup_8969ae3ec173455086e7d5fb3d527fae)
+        ;
+
+        
+    
+    
+            marker_9ee107eef0dd4c5bb81e36c857067e59.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62675acd4da34494aec96f67f7f7fe5e = L.marker(
+                [45.366368, -75.908759],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_daca51572bb04e13b585adc4ad8b0330 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_62675acd4da34494aec96f67f7f7fe5e.setIcon(icon_daca51572bb04e13b585adc4ad8b0330);
+        
+    
+        var popup_b9fe4626dc014cadaad9be2ecf455bd0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afd572eb6be34429b9fcb5ad4a95075e = $(`<div id="html_afd572eb6be34429b9fcb5ad4a95075e" style="width: 100.0%; height: 100.0%;"><i>AI policy ops -- this is a remarkable move and fascinating read that really drives to the heart of what inspires ma… https://t.co/7JrSqVCFX8</i></div>`)[0];
+            popup_b9fe4626dc014cadaad9be2ecf455bd0.setContent(html_afd572eb6be34429b9fcb5ad4a95075e);
+        
+
+        marker_62675acd4da34494aec96f67f7f7fe5e.bindPopup(popup_b9fe4626dc014cadaad9be2ecf455bd0)
+        ;
+
+        
+    
+    
+            marker_62675acd4da34494aec96f67f7f7fe5e.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f736f4963f0e43a9b7d9e7decde0901f = L.marker(
+                [-27.244506, 26.226413],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_5907332e142e46939dfaa53c777f5430 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_f736f4963f0e43a9b7d9e7decde0901f.setIcon(icon_5907332e142e46939dfaa53c777f5430);
+        
+    
+        var popup_6ca3d2634fb94e72b4adc3e79dae416e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2a583e667c94234be189806a9b8c6b7 = $(`<div id="html_e2a583e667c94234be189806a9b8c6b7" style="width: 100.0%; height: 100.0%;"><i>@FootballTshepo @prophilani @nthaof Khompela did too bt cause its him u play ignorance ai dis ppl ijo</i></div>`)[0];
+            popup_6ca3d2634fb94e72b4adc3e79dae416e.setContent(html_e2a583e667c94234be189806a9b8c6b7);
+        
+
+        marker_f736f4963f0e43a9b7d9e7decde0901f.bindPopup(popup_6ca3d2634fb94e72b4adc3e79dae416e)
+        ;
+
+        
+    
+    
+            marker_f736f4963f0e43a9b7d9e7decde0901f.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e92b7acc60a842eba7938ee7041a6966 = L.marker(
+                [48.815521, 2.224101],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_a745897e3bd044d18995ebfc21647137 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_e92b7acc60a842eba7938ee7041a6966.setIcon(icon_a745897e3bd044d18995ebfc21647137);
+        
+    
+        var popup_e3ebaa83e4214c1482f5a0dd5df94cc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29fc9ae7837c46ab8e1677a8e5813937 = $(`<div id="html_29fc9ae7837c46ab8e1677a8e5813937" style="width: 100.0%; height: 100.0%;"><i>Wall-e .</i></div>`)[0];
+            popup_e3ebaa83e4214c1482f5a0dd5df94cc2.setContent(html_29fc9ae7837c46ab8e1677a8e5813937);
+        
+
+        marker_e92b7acc60a842eba7938ee7041a6966.bindPopup(popup_e3ebaa83e4214c1482f5a0dd5df94cc2)
+        ;
+
+        
+    
+    
+            marker_e92b7acc60a842eba7938ee7041a6966.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43f010f64cd541a5adad962375577f02 = L.marker(
+                [-1.386486, 33.916607],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_eacabce2d4164a04b242b531aee8ffe9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_43f010f64cd541a5adad962375577f02.setIcon(icon_eacabce2d4164a04b242b531aee8ffe9);
+        
+    
+        var popup_8c882847a0b948e69c0c9b9aa457d287 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_466e73fd736f4d43909819d5d3aaaccc = $(`<div id="html_466e73fd736f4d43909819d5d3aaaccc" style="width: 100.0%; height: 100.0%;"><i>10. "Kiuno nayo! Ai mrembo, shall I take you somewhere?" That's what he said. I didn't know if to laugh, cry or say… https://t.co/9HkibYBVfh</i></div>`)[0];
+            popup_8c882847a0b948e69c0c9b9aa457d287.setContent(html_466e73fd736f4d43909819d5d3aaaccc);
+        
+
+        marker_43f010f64cd541a5adad962375577f02.bindPopup(popup_8c882847a0b948e69c0c9b9aa457d287)
+        ;
+
+        
+    
+    
+            marker_43f010f64cd541a5adad962375577f02.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c09f3d522150497fa3f65a505f4eed64 = L.marker(
+                [59.227138, 17.760132],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_6321bc37d0c04a74a17f16ab34b267c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_c09f3d522150497fa3f65a505f4eed64.setIcon(icon_6321bc37d0c04a74a17f16ab34b267c9);
+        
+    
+        var popup_6022e87b15ec49da849acf3e7663e71e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e139a71604e74a43af1ee11850933fc3 = $(`<div id="html_e139a71604e74a43af1ee11850933fc3" style="width: 100.0%; height: 100.0%;"><i>AI-generated rap song lyrics ‘Internet’  𝕻𝖗𝖊-𝖈𝖍𝖔𝖗𝖚𝖘 Keep your kids out of the streets Whole swagger on the internet… https://t.co/9WVy7Eo1DG</i></div>`)[0];
+            popup_6022e87b15ec49da849acf3e7663e71e.setContent(html_e139a71604e74a43af1ee11850933fc3);
+        
+
+        marker_c09f3d522150497fa3f65a505f4eed64.bindPopup(popup_6022e87b15ec49da849acf3e7663e71e)
+        ;
+
+        
+    
+    
+            marker_c09f3d522150497fa3f65a505f4eed64.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c00128b8649f4cd599fa2d970f29f08b = L.marker(
+                [51.412339, -1.065041],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_a84a56d802284f538f01f56930d7ce1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_c00128b8649f4cd599fa2d970f29f08b.setIcon(icon_a84a56d802284f538f01f56930d7ce1b);
+        
+    
+        var popup_2a10b36e30ce464f85b4e16f37800988 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47ea98bbb1dc49f5857c32c5c25dbe06 = $(`<div id="html_47ea98bbb1dc49f5857c32c5c25dbe06" style="width: 100.0%; height: 100.0%;"><i>@tricianicoll @LouizeClarke Thank you for you kind words - it’s been great having you here this week. Looking forwa… https://t.co/oRZ1fDsIwe</i></div>`)[0];
+            popup_2a10b36e30ce464f85b4e16f37800988.setContent(html_47ea98bbb1dc49f5857c32c5c25dbe06);
+        
+
+        marker_c00128b8649f4cd599fa2d970f29f08b.bindPopup(popup_2a10b36e30ce464f85b4e16f37800988)
+        ;
+
+        
+    
+    
+            marker_c00128b8649f4cd599fa2d970f29f08b.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_beba5cdce7354ca5a07532a4493b4270 = L.marker(
+                [50.883056, -1.476463],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_2d365d5259884799bd84879cf0f599fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_beba5cdce7354ca5a07532a4493b4270.setIcon(icon_2d365d5259884799bd84879cf0f599fe);
+        
+    
+        var popup_ec1cb7e0b8054b2da7c511ba8fb6ae97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5aa41c795097485790b880af39a4da9d = $(`<div id="html_5aa41c795097485790b880af39a4da9d" style="width: 100.0%; height: 100.0%;"><i>Tonight's 90 second pitch comes from @philyuewu, who is tackling the climate emergency with his brilliant AI soluti… https://t.co/uHYAmcUY3b</i></div>`)[0];
+            popup_ec1cb7e0b8054b2da7c511ba8fb6ae97.setContent(html_5aa41c795097485790b880af39a4da9d);
+        
+
+        marker_beba5cdce7354ca5a07532a4493b4270.bindPopup(popup_ec1cb7e0b8054b2da7c511ba8fb6ae97)
+        ;
+
+        
+    
+    
+            marker_beba5cdce7354ca5a07532a4493b4270.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74b5cbb132044346bda297b29b1511ee = L.marker(
+                [33.877554, -83.521866],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_f7bd811853c343e7964140cd5eb02a97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_74b5cbb132044346bda297b29b1511ee.setIcon(icon_f7bd811853c343e7964140cd5eb02a97);
+        
+    
+        var popup_e6c03b31b5b846849d643e6af871e98a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49594be4a5bd43d49c104397ff09a15d = $(`<div id="html_49594be4a5bd43d49c104397ff09a15d" style="width: 100.0%; height: 100.0%;"><i>is this ex machina?</i></div>`)[0];
+            popup_e6c03b31b5b846849d643e6af871e98a.setContent(html_49594be4a5bd43d49c104397ff09a15d);
+        
+
+        marker_74b5cbb132044346bda297b29b1511ee.bindPopup(popup_e6c03b31b5b846849d643e6af871e98a)
+        ;
+
+        
+    
+    
+            marker_74b5cbb132044346bda297b29b1511ee.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43ad6d970d9e4d9ab174044f6be4520d = L.marker(
+                [40.683935, -74.026675],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_5592bae639eb4499a9cdb98f25565bf9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_43ad6d970d9e4d9ab174044f6be4520d.setIcon(icon_5592bae639eb4499a9cdb98f25565bf9);
+        
+    
+        var popup_eedbab6768cd4332b586bf3aca2ddba7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7a72d0c2048438885d9e4673fc5120f = $(`<div id="html_e7a72d0c2048438885d9e4673fc5120f" style="width: 100.0%; height: 100.0%;"><i>Presented at UHWI Department of Surgery Grand Rounds back in December in #Jamaica - ‘Impacting Medicine with Scient… https://t.co/dFBAcxXc72</i></div>`)[0];
+            popup_eedbab6768cd4332b586bf3aca2ddba7.setContent(html_e7a72d0c2048438885d9e4673fc5120f);
+        
+
+        marker_43ad6d970d9e4d9ab174044f6be4520d.bindPopup(popup_eedbab6768cd4332b586bf3aca2ddba7)
+        ;
+
+        
+    
+    
+            marker_43ad6d970d9e4d9ab174044f6be4520d.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d39b7bf6fae446a783ffaf5a7c1225cf = L.marker(
+                [8.996574, 6.086587],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_8d3e3bd3ca664fa4ba49a6f153ef3770 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_d39b7bf6fae446a783ffaf5a7c1225cf.setIcon(icon_8d3e3bd3ca664fa4ba49a6f153ef3770);
+        
+    
+        var popup_d7b124854da14815aa32d6f079339752 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22b50aee6b434c44bb79e4afdf9cfc72 = $(`<div id="html_22b50aee6b434c44bb79e4afdf9cfc72" style="width: 100.0%; height: 100.0%;"><i>Hahaha hava abdul its much ai dan rage😁😅🤣</i></div>`)[0];
+            popup_d7b124854da14815aa32d6f079339752.setContent(html_22b50aee6b434c44bb79e4afdf9cfc72);
+        
+
+        marker_d39b7bf6fae446a783ffaf5a7c1225cf.bindPopup(popup_d7b124854da14815aa32d6f079339752)
+        ;
+
+        
+    
+    
+            marker_d39b7bf6fae446a783ffaf5a7c1225cf.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_169352ddca044d2b9f43810e1a822392 = L.marker(
+                [25.837092, -106.645646],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_b9cd095bf7ff47af9542b8e0ac2cf65b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_169352ddca044d2b9f43810e1a822392.setIcon(icon_b9cd095bf7ff47af9542b8e0ac2cf65b);
+        
+    
+        var popup_ad22f81ce7d3460e889cad823a55a43d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ba399eac2cc4b69b7c9cb546bc75576 = $(`<div id="html_4ba399eac2cc4b69b7c9cb546bc75576" style="width: 100.0%; height: 100.0%;"><i>This really isn’t needed. I feel confident that @frenchrw can predict yield with just a casual glance at the field.… https://t.co/IXViR2j2Cd</i></div>`)[0];
+            popup_ad22f81ce7d3460e889cad823a55a43d.setContent(html_4ba399eac2cc4b69b7c9cb546bc75576);
+        
+
+        marker_169352ddca044d2b9f43810e1a822392.bindPopup(popup_ad22f81ce7d3460e889cad823a55a43d)
+        ;
+
+        
+    
+    
+            marker_169352ddca044d2b9f43810e1a822392.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3478828cdca64e7c90c022099da777b1 = L.marker(
+                [50.800721, 4.347341],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_31151c19c6a14babaab36fcb3c45a89e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_3478828cdca64e7c90c022099da777b1.setIcon(icon_31151c19c6a14babaab36fcb3c45a89e);
+        
+    
+        var popup_850d0d59d6cd49deafe2b1df6723bc24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7474f92a487c4f0d96c701a9484c0dc8 = $(`<div id="html_7474f92a487c4f0d96c701a9484c0dc8" style="width: 100.0%; height: 100.0%;"><i>Today @EP_Legal &amp; @EP_Justice continued to scrutinise the Commission's blueprint for #AI &amp; #Data Strategy. Careful… https://t.co/j0vtx8TSI4</i></div>`)[0];
+            popup_850d0d59d6cd49deafe2b1df6723bc24.setContent(html_7474f92a487c4f0d96c701a9484c0dc8);
+        
+
+        marker_3478828cdca64e7c90c022099da777b1.bindPopup(popup_850d0d59d6cd49deafe2b1df6723bc24)
+        ;
+
+        
+    
+    
+            marker_3478828cdca64e7c90c022099da777b1.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e46dc1ed6684284b5d888593ffe2d89 = L.marker(
+                [49.001963, -123.738375],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_bf012c5e8345495fb7a7b916f0c8e3a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_1e46dc1ed6684284b5d888593ffe2d89.setIcon(icon_bf012c5e8345495fb7a7b916f0c8e3a7);
+        
+    
+        var popup_971e3e210c33490cba58f0033fd27b65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_577200a9b70d482ebcefb58d0499a663 = $(`<div id="html_577200a9b70d482ebcefb58d0499a663" style="width: 100.0%; height: 100.0%;"><i>Spotlight on #AI for #SME via @futureconomy cc @AXTX  https://t.co/bskY5CuDoK #MachineLearning #NeuralNetwork… https://t.co/uY57IUL5lY</i></div>`)[0];
+            popup_971e3e210c33490cba58f0033fd27b65.setContent(html_577200a9b70d482ebcefb58d0499a663);
+        
+
+        marker_1e46dc1ed6684284b5d888593ffe2d89.bindPopup(popup_971e3e210c33490cba58f0033fd27b65)
+        ;
+
+        
+    
+    
+            marker_1e46dc1ed6684284b5d888593ffe2d89.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60af5eed3fb742b488b6b470b0e93d77 = L.marker(
+                [29.823923, -94.053284],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_dad4af45271b468a873f1cf99ee8d5df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_60af5eed3fb742b488b6b470b0e93d77.setIcon(icon_dad4af45271b468a873f1cf99ee8d5df);
+        
+    
+        var popup_31797aeddec84028a2bf80184fb0dfac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6629a0e7b3e49e5892f92450e57e757 = $(`<div id="html_e6629a0e7b3e49e5892f92450e57e757" style="width: 100.0%; height: 100.0%;"><i>IA the 7’ AI</i></div>`)[0];
+            popup_31797aeddec84028a2bf80184fb0dfac.setContent(html_e6629a0e7b3e49e5892f92450e57e757);
+        
+
+        marker_60af5eed3fb742b488b6b470b0e93d77.bindPopup(popup_31797aeddec84028a2bf80184fb0dfac)
+        ;
+
+        
+    
+    
+            marker_60af5eed3fb742b488b6b470b0e93d77.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12c4877108424e83bd865da94db52fe7 = L.marker(
+                [49.001963, -123.738375],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_ee850222734a400d9b55d4c823de4a1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_12c4877108424e83bd865da94db52fe7.setIcon(icon_ee850222734a400d9b55d4c823de4a1b);
+        
+    
+        var popup_04a8fdbe02224c2ba9af01e5aa5a500c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96b3597ca3b040db9dbe39c3efaa2631 = $(`<div id="html_96b3597ca3b040db9dbe39c3efaa2631" style="width: 100.0%; height: 100.0%;"><i>Where does 🇨🇦 stand in #ai #research; Spotlight on #AI for #SME via @futureconomy cc @AXTX  https://t.co/bskY5CuDoK… https://t.co/UWZTEyKjo2</i></div>`)[0];
+            popup_04a8fdbe02224c2ba9af01e5aa5a500c.setContent(html_96b3597ca3b040db9dbe39c3efaa2631);
+        
+
+        marker_12c4877108424e83bd865da94db52fe7.bindPopup(popup_04a8fdbe02224c2ba9af01e5aa5a500c)
+        ;
+
+        
+    
+    
+            marker_12c4877108424e83bd865da94db52fe7.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eadd8bbd17814823b902cb0cf5ec2dc1 = L.marker(
+                [51.190673, -4.155242],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_6182d4060a554e95a2c26a76abebe516 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_eadd8bbd17814823b902cb0cf5ec2dc1.setIcon(icon_6182d4060a554e95a2c26a76abebe516);
+        
+    
+        var popup_86904bac841b4c3bb8d51797414ac16e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b53b3050a050485b86e8ab34df2cb327 = $(`<div id="html_b53b3050a050485b86e8ab34df2cb327" style="width: 100.0%; height: 100.0%;"><i>@_The_Gardener_ @oxbotica I do get annoyed when you hear and read serious people being so anti science, especially… https://t.co/3FALZZThh1</i></div>`)[0];
+            popup_86904bac841b4c3bb8d51797414ac16e.setContent(html_b53b3050a050485b86e8ab34df2cb327);
+        
+
+        marker_eadd8bbd17814823b902cb0cf5ec2dc1.bindPopup(popup_86904bac841b4c3bb8d51797414ac16e)
+        ;
+
+        
+    
+    
+            marker_eadd8bbd17814823b902cb0cf5ec2dc1.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34235ad9dd8945079cd9c0fa19afb07f = L.marker(
+                [28.199529, 76.707671],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_1a5d4daac0d44125b29a603d387d64f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_34235ad9dd8945079cd9c0fa19afb07f.setIcon(icon_1a5d4daac0d44125b29a603d387d64f9);
+        
+    
+        var popup_8a51d4ebcd6e408cab6c79cb6b4176e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1febfe23bbc74565a833c4565bf50042 = $(`<div id="html_1febfe23bbc74565a833c4565bf50042" style="width: 100.0%; height: 100.0%;"><i>Plot for sale in DLF 1 Gurgaon Area 502 sq yds #Google https://t.co/x9WPwYuRv6  #Gurgaon #realestate #plot #trade… https://t.co/TQXs48jiQ1</i></div>`)[0];
+            popup_8a51d4ebcd6e408cab6c79cb6b4176e0.setContent(html_1febfe23bbc74565a833c4565bf50042);
+        
+
+        marker_34235ad9dd8945079cd9c0fa19afb07f.bindPopup(popup_8a51d4ebcd6e408cab6c79cb6b4176e0)
+        ;
+
+        
+    
+    
+            marker_34235ad9dd8945079cd9c0fa19afb07f.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0e19f07b63842b5accc59a712b911f7 = L.marker(
+                [29.889574, -90.137908],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_793986a51077492eadf8693961123463 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_b0e19f07b63842b5accc59a712b911f7.setIcon(icon_793986a51077492eadf8693961123463);
+        
+    
+        var popup_ad2ee064ca064adc811ae9f6c4b365e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c342b06f44f74261857af50ba9079d70 = $(`<div id="html_c342b06f44f74261857af50ba9079d70" style="width: 100.0%; height: 100.0%;"><i>Has anyone won the dunk contest against the AI in @NBA2K ? Im successfully pulling off hard dunks vs the AI and I'm… https://t.co/EVGvFopuaO</i></div>`)[0];
+            popup_ad2ee064ca064adc811ae9f6c4b365e2.setContent(html_c342b06f44f74261857af50ba9079d70);
+        
+
+        marker_b0e19f07b63842b5accc59a712b911f7.bindPopup(popup_ad2ee064ca064adc811ae9f6c4b365e2)
+        ;
+
+        
+    
+    
+            marker_b0e19f07b63842b5accc59a712b911f7.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d71f2ee21504b7b906a7b6595624ace = L.marker(
+                [42.018414, -80.239991],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_df782b604a7f4ee1bc9b2a38c4be5d81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_8d71f2ee21504b7b906a7b6595624ace.setIcon(icon_df782b604a7f4ee1bc9b2a38c4be5d81);
+        
+    
+        var popup_25ab0c50eafb420da74efd27e3bd5523 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_264238478d5d4bd186c846f4dd559865 = $(`<div id="html_264238478d5d4bd186c846f4dd559865" style="width: 100.0%; height: 100.0%;"><i>#Ecoin has launched World’s Biggest &amp; Simplest 1-click Airdrop powered by World’s first AI-driven ‘Email based iden… https://t.co/E147qpAJyO</i></div>`)[0];
+            popup_25ab0c50eafb420da74efd27e3bd5523.setContent(html_264238478d5d4bd186c846f4dd559865);
+        
+
+        marker_8d71f2ee21504b7b906a7b6595624ace.bindPopup(popup_25ab0c50eafb420da74efd27e3bd5523)
+        ;
+
+        
+    
+    
+            marker_8d71f2ee21504b7b906a7b6595624ace.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d71a29d49d244508892435a651c8446a = L.marker(
+                [5.741189, 5.008606],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_f09164262dc04e6292d78082ee2194d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_d71a29d49d244508892435a651c8446a.setIcon(icon_f09164262dc04e6292d78082ee2194d9);
+        
+    
+        var popup_6190ae697fd544cd84fcd81ff40b67f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_481288bd396e4b2080a8753652465da3 = $(`<div id="html_481288bd396e4b2080a8753652465da3" style="width: 100.0%; height: 100.0%;"><i>Artificial intelligence at its best</i></div>`)[0];
+            popup_6190ae697fd544cd84fcd81ff40b67f4.setContent(html_481288bd396e4b2080a8753652465da3);
+        
+
+        marker_d71a29d49d244508892435a651c8446a.bindPopup(popup_6190ae697fd544cd84fcd81ff40b67f4)
+        ;
+
+        
+    
+    
+            marker_d71a29d49d244508892435a651c8446a.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e52b709ade94200b5259d0c8a68ee07 = L.marker(
+                [52.365398, -1.612893],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_c70342ef7c2e4891876f54311bc74d8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_1e52b709ade94200b5259d0c8a68ee07.setIcon(icon_c70342ef7c2e4891876f54311bc74d8d);
+        
+    
+        var popup_301a18b10eb74a15aef5ffa024b00a08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc93e2dedd7143ccaf52ae74111889e9 = $(`<div id="html_dc93e2dedd7143ccaf52ae74111889e9" style="width: 100.0%; height: 100.0%;"><i>Huge potential. named “halicin” after Hal, the astronaut-bothering AI in the film 2001: A Space Odyssey   Powerful… https://t.co/ro4ySwTdnY</i></div>`)[0];
+            popup_301a18b10eb74a15aef5ffa024b00a08.setContent(html_dc93e2dedd7143ccaf52ae74111889e9);
+        
+
+        marker_1e52b709ade94200b5259d0c8a68ee07.bindPopup(popup_301a18b10eb74a15aef5ffa024b00a08)
+        ;
+
+        
+    
+    
+            marker_1e52b709ade94200b5259d0c8a68ee07.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d108e5f58044e0395662b345b070289 = L.marker(
+                [-0.573373, 9.301286],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_75e4342173d248a6950f36710a9963ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_6d108e5f58044e0395662b345b070289.setIcon(icon_75e4342173d248a6950f36710a9963ac);
+        
+    
+        var popup_603282b4903848e7af6509953d0550e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61b3634f75a84037bc7a5faca3faca1d = $(`<div id="html_61b3634f75a84037bc7a5faca3faca1d" style="width: 100.0%; height: 100.0%;"><i>Yeahhhhh Baby Lady! 💪💪🙏🙏</i></div>`)[0];
+            popup_603282b4903848e7af6509953d0550e4.setContent(html_61b3634f75a84037bc7a5faca3faca1d);
+        
+
+        marker_6d108e5f58044e0395662b345b070289.bindPopup(popup_603282b4903848e7af6509953d0550e4)
+        ;
+
+        
+    
+    
+            marker_6d108e5f58044e0395662b345b070289.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d0388b804ac4fa18ac32533521aa1a8 = L.marker(
+                [48.773059, 2.624107],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_f90cc1cd1710436e9aa408ee51a1f41e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_1d0388b804ac4fa18ac32533521aa1a8.setIcon(icon_f90cc1cd1710436e9aa408ee51a1f41e);
+        
+    
+        var popup_c46b3839e05446efa7a2d84aedc83b7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9c750cde3994a4ba04bb38dcbbba551 = $(`<div id="html_f9c750cde3994a4ba04bb38dcbbba551" style="width: 100.0%; height: 100.0%;"><i>Comment on unseen</i></div>`)[0];
+            popup_c46b3839e05446efa7a2d84aedc83b7f.setContent(html_f9c750cde3994a4ba04bb38dcbbba551);
+        
+
+        marker_1d0388b804ac4fa18ac32533521aa1a8.bindPopup(popup_c46b3839e05446efa7a2d84aedc83b7f)
+        ;
+
+        
+    
+    
+            marker_1d0388b804ac4fa18ac32533521aa1a8.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9185f41715af49d890d03438e7897a79 = L.marker(
+                [25.732128, -80.385477],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_6068057941cf450f99b6c5b528c9af69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_9185f41715af49d890d03438e7897a79.setIcon(icon_6068057941cf450f99b6c5b528c9af69);
+        
+    
+        var popup_e1947ea3f9234d8dac13db2d516218f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d43d8649fb8476e923a35a913ab6d3c = $(`<div id="html_5d43d8649fb8476e923a35a913ab6d3c" style="width: 100.0%; height: 100.0%;"><i>Le tweet dit “One gotta go”, j’ai choisi celui que je préfère le moin so stop attacking me if you don’t agree! And… https://t.co/zJz6GFf6gg</i></div>`)[0];
+            popup_e1947ea3f9234d8dac13db2d516218f1.setContent(html_5d43d8649fb8476e923a35a913ab6d3c);
+        
+
+        marker_9185f41715af49d890d03438e7897a79.bindPopup(popup_e1947ea3f9234d8dac13db2d516218f1)
+        ;
+
+        
+    
+    
+            marker_9185f41715af49d890d03438e7897a79.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5701f37141b41ea9374624a13b7a809 = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_76830986931e4a2ebd49432e74b1ad9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_f5701f37141b41ea9374624a13b7a809.setIcon(icon_76830986931e4a2ebd49432e74b1ad9a);
+        
+    
+        var popup_8c1190bee8a741708b5cb0e1beb21d2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a13e6166ac9d4f8fa8ccfed1eaa40dca = $(`<div id="html_a13e6166ac9d4f8fa8ccfed1eaa40dca" style="width: 100.0%; height: 100.0%;"><i>Flood Alert: River Lambourn and its tributaries from Upper Lambourn down to Newbury 10:53 21 February https://t.co/ptsEBKVXMC</i></div>`)[0];
+            popup_8c1190bee8a741708b5cb0e1beb21d2b.setContent(html_a13e6166ac9d4f8fa8ccfed1eaa40dca);
+        
+
+        marker_f5701f37141b41ea9374624a13b7a809.bindPopup(popup_8c1190bee8a741708b5cb0e1beb21d2b)
+        ;
+
+        
+    
+    
+            marker_f5701f37141b41ea9374624a13b7a809.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_678f4089ac27422b88ccb7e61720663c = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_ce2c3ce548464283bdd24ca47a74ba4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_678f4089ac27422b88ccb7e61720663c.setIcon(icon_ce2c3ce548464283bdd24ca47a74ba4c);
+        
+    
+        var popup_b7fcab362ce44e7e9aecf4534469fc6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0dce3a162a1e414d8f5bcc657fedbced = $(`<div id="html_0dce3a162a1e414d8f5bcc657fedbced" style="width: 100.0%; height: 100.0%;"><i>@BigBearF1 Proud to stand beside you buddy - stay strong .</i></div>`)[0];
+            popup_b7fcab362ce44e7e9aecf4534469fc6e.setContent(html_0dce3a162a1e414d8f5bcc657fedbced);
+        
+
+        marker_678f4089ac27422b88ccb7e61720663c.bindPopup(popup_b7fcab362ce44e7e9aecf4534469fc6e)
+        ;
+
+        
+    
+    
+            marker_678f4089ac27422b88ccb7e61720663c.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f7abb34cde2640988a452ab979ab0b3a = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_15c848ddf8a3439fbfab0988f65cb336 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_f7abb34cde2640988a452ab979ab0b3a.setIcon(icon_15c848ddf8a3439fbfab0988f65cb336);
+        
+    
+        var popup_6ad2fc940ca44d23beefc627afbe27fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_205e3c96ed3241b1963dc79b4a4a9247 = $(`<div id="html_205e3c96ed3241b1963dc79b4a4a9247" style="width: 100.0%; height: 100.0%;"><i>@Carpervert @harrismonkey I had a while conversation with the driver after the first run up the hill about how you… https://t.co/c2gn2BIV3U</i></div>`)[0];
+            popup_6ad2fc940ca44d23beefc627afbe27fa.setContent(html_205e3c96ed3241b1963dc79b4a4a9247);
+        
+
+        marker_f7abb34cde2640988a452ab979ab0b3a.bindPopup(popup_6ad2fc940ca44d23beefc627afbe27fa)
+        ;
+
+        
+    
+    
+            marker_f7abb34cde2640988a452ab979ab0b3a.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98bf3c5b42814391b0a9d62ead1a94f1 = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_ebcd8bffec2d4522b5336ad35c385a86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_98bf3c5b42814391b0a9d62ead1a94f1.setIcon(icon_ebcd8bffec2d4522b5336ad35c385a86);
+        
+    
+        var popup_7e8161c8763a4178b0d57bd439070624 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3090919b99724551965a3f302fabf9cf = $(`<div id="html_3090919b99724551965a3f302fabf9cf" style="width: 100.0%; height: 100.0%;"><i>Last night was a super wet one! Lots of laughs were had as we slipped our way around the trails, including one poor… https://t.co/uR6nxQye2Q</i></div>`)[0];
+            popup_7e8161c8763a4178b0d57bd439070624.setContent(html_3090919b99724551965a3f302fabf9cf);
+        
+
+        marker_98bf3c5b42814391b0a9d62ead1a94f1.bindPopup(popup_7e8161c8763a4178b0d57bd439070624)
+        ;
+
+        
+    
+    
+            marker_98bf3c5b42814391b0a9d62ead1a94f1.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5143bd7d24884dc8bf3af901316ae555 = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_238c76868fb441d5b648734b4903aa7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_5143bd7d24884dc8bf3af901316ae555.setIcon(icon_238c76868fb441d5b648734b4903aa7c);
+        
+    
+        var popup_afb5d08d9ac14e1999291061829d6636 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a94c1658c6854547a325e37a9f664278 = $(`<div id="html_a94c1658c6854547a325e37a9f664278" style="width: 100.0%; height: 100.0%;"><i>Today we found this little beauty, not too far from us 🥰#beautiful #nature #walksandtalks #adventuretime… https://t.co/lsBl2ExUT3</i></div>`)[0];
+            popup_afb5d08d9ac14e1999291061829d6636.setContent(html_a94c1658c6854547a325e37a9f664278);
+        
+
+        marker_5143bd7d24884dc8bf3af901316ae555.bindPopup(popup_afb5d08d9ac14e1999291061829d6636)
+        ;
+
+        
+    
+    
+            marker_5143bd7d24884dc8bf3af901316ae555.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f93b3b268e2544e5b7d3ddfb52cc50f9 = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_7a89c9cd1e584784bed3d436ab73ba14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_f93b3b268e2544e5b7d3ddfb52cc50f9.setIcon(icon_7a89c9cd1e584784bed3d436ab73ba14);
+        
+    
+        var popup_f385e4d6c1c446958d0bf8465caa33cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f4d999b37ff417cb9054d1fde2fee92 = $(`<div id="html_2f4d999b37ff417cb9054d1fde2fee92" style="width: 100.0%; height: 100.0%;"><i>Well it’s been a battle this week with the bad weather but we have tried our hardest to compete and get as much wor… https://t.co/VhIQoNRyMm</i></div>`)[0];
+            popup_f385e4d6c1c446958d0bf8465caa33cb.setContent(html_2f4d999b37ff417cb9054d1fde2fee92);
+        
+
+        marker_f93b3b268e2544e5b7d3ddfb52cc50f9.bindPopup(popup_f385e4d6c1c446958d0bf8465caa33cb)
+        ;
+
+        
+    
+    
+            marker_f93b3b268e2544e5b7d3ddfb52cc50f9.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5f20d2af370494bbbfbb14dcea67128 = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_9f6c224f792a44ef967e5e0222b5dff4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_a5f20d2af370494bbbfbb14dcea67128.setIcon(icon_9f6c224f792a44ef967e5e0222b5dff4);
+        
+    
+        var popup_1c5829f6bb3b464687a37457ede7ae53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61b9a1951b5c4a77aeb417313979049d = $(`<div id="html_61b9a1951b5c4a77aeb417313979049d" style="width: 100.0%; height: 100.0%;"><i>@JoePowe28862766 @PFCOlly I think so. Cost him £450 I believe. May just be an urban myth but it’s a good one!</i></div>`)[0];
+            popup_1c5829f6bb3b464687a37457ede7ae53.setContent(html_61b9a1951b5c4a77aeb417313979049d);
+        
+
+        marker_a5f20d2af370494bbbfbb14dcea67128.bindPopup(popup_1c5829f6bb3b464687a37457ede7ae53)
+        ;
+
+        
+    
+    
+            marker_a5f20d2af370494bbbfbb14dcea67128.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_654f76949a384cfc923e2f29a4feacef = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_3e3873dc5db9475d9cf4a5202d80280a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_654f76949a384cfc923e2f29a4feacef.setIcon(icon_3e3873dc5db9475d9cf4a5202d80280a);
+        
+    
+        var popup_b940cd3f02884cbd8c4586daecc1ad26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c31430bd4aef4c4a91b577310f4fa1bc = $(`<div id="html_c31430bd4aef4c4a91b577310f4fa1bc" style="width: 100.0%; height: 100.0%;"><i>@owenhatherley But we must meet voters where they are (towns, presumably) Owen.</i></div>`)[0];
+            popup_b940cd3f02884cbd8c4586daecc1ad26.setContent(html_c31430bd4aef4c4a91b577310f4fa1bc);
+        
+
+        marker_654f76949a384cfc923e2f29a4feacef.bindPopup(popup_b940cd3f02884cbd8c4586daecc1ad26)
+        ;
+
+        
+    
+    
+            marker_654f76949a384cfc923e2f29a4feacef.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5cafc67d10147a8a2b2c2f991a0069a = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_2a0abb5dcd0144d3ae4e3c8fbc4e74f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_b5cafc67d10147a8a2b2c2f991a0069a.setIcon(icon_2a0abb5dcd0144d3ae4e3c8fbc4e74f7);
+        
+    
+        var popup_7af1c3e9552343fda55909be25fed78e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81e698e98ef943f9a09406c80b562816 = $(`<div id="html_81e698e98ef943f9a09406c80b562816" style="width: 100.0%; height: 100.0%;"><i>someone pls buy his ticket he didn’t realise he had work tonight n the twickets resale period is over x @jamieoborne</i></div>`)[0];
+            popup_7af1c3e9552343fda55909be25fed78e.setContent(html_81e698e98ef943f9a09406c80b562816);
+        
+
+        marker_b5cafc67d10147a8a2b2c2f991a0069a.bindPopup(popup_7af1c3e9552343fda55909be25fed78e)
+        ;
+
+        
+    
+    
+            marker_b5cafc67d10147a8a2b2c2f991a0069a.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5dda6a954bbf406c9c64c8789e4e71e4 = L.marker(
+                [49.882531, -6.365194],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_d042a42aac84414fbdd32f526637fb96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_5dda6a954bbf406c9c64c8789e4e71e4.setIcon(icon_d042a42aac84414fbdd32f526637fb96);
+        
+    
+        var popup_b4e8c49c214b4dbdbbbf2c561affe987 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60f55efdde364948899fb74987b1cd45 = $(`<div id="html_60f55efdde364948899fb74987b1cd45" style="width: 100.0%; height: 100.0%;"><i>“The steps to the table in the Rock Star suites is inspired by @richardbranson” (who has a penchant for dancing on… https://t.co/4lTTD6Bcli</i></div>`)[0];
+            popup_b4e8c49c214b4dbdbbbf2c561affe987.setContent(html_60f55efdde364948899fb74987b1cd45);
+        
+
+        marker_5dda6a954bbf406c9c64c8789e4e71e4.bindPopup(popup_b4e8c49c214b4dbdbbbf2c561affe987)
+        ;
+
+        
+    
+    
+            marker_5dda6a954bbf406c9c64c8789e4e71e4.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a77fd6134eb44358a1d02836e7ca299 = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_0c4c9cc3221e4fd3b845936f420d5d98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_1a77fd6134eb44358a1d02836e7ca299.setIcon(icon_0c4c9cc3221e4fd3b845936f420d5d98);
+        
+    
+        var popup_e0b96189353e4f2784d8bc86ec67e01d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5a0b5517db049cbaa2d6db37c7fb367 = $(`<div id="html_b5a0b5517db049cbaa2d6db37c7fb367" style="width: 100.0%; height: 100.0%;"><i>This little robin let me get very close today and he just kept singing #nikond500 #nikonphotography… https://t.co/akBuR1xNF5</i></div>`)[0];
+            popup_e0b96189353e4f2784d8bc86ec67e01d.setContent(html_b5a0b5517db049cbaa2d6db37c7fb367);
+        
+
+        marker_1a77fd6134eb44358a1d02836e7ca299.bindPopup(popup_e0b96189353e4f2784d8bc86ec67e01d)
+        ;
+
+        
+    
+    
+            marker_1a77fd6134eb44358a1d02836e7ca299.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_450aadf0c58e4c3e95acfd8ff67fe65b = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_02f84ab91c93448685cdef2550d219f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_450aadf0c58e4c3e95acfd8ff67fe65b.setIcon(icon_02f84ab91c93448685cdef2550d219f3);
+        
+    
+        var popup_d215d7d9611c4707838d747d1bf0a2ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3dcd1884873346019a9384e8ba5c09c1 = $(`<div id="html_3dcd1884873346019a9384e8ba5c09c1" style="width: 100.0%; height: 100.0%;"><i>@LankyObserver @tutusaysso Yeah</i></div>`)[0];
+            popup_d215d7d9611c4707838d747d1bf0a2ba.setContent(html_3dcd1884873346019a9384e8ba5c09c1);
+        
+
+        marker_450aadf0c58e4c3e95acfd8ff67fe65b.bindPopup(popup_d215d7d9611c4707838d747d1bf0a2ba)
+        ;
+
+        
+    
+    
+            marker_450aadf0c58e4c3e95acfd8ff67fe65b.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_283b18289b944476955f1208ce0d2e37 = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_0f59dd544f214854b57ae9b921b4237d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_283b18289b944476955f1208ce0d2e37.setIcon(icon_0f59dd544f214854b57ae9b921b4237d);
+        
+    
+        var popup_5e82b4afa39d490ea3e91ccb918eac1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfe5ff5f2c5b4ba9aa6744503607dbbb = $(`<div id="html_dfe5ff5f2c5b4ba9aa6744503607dbbb" style="width: 100.0%; height: 100.0%;"><i>@casskhaw @manylittlewords @WriterOdell @shloobee You all do amazing work and I will bullhorn about it to my audience every chance I get:)</i></div>`)[0];
+            popup_5e82b4afa39d490ea3e91ccb918eac1d.setContent(html_dfe5ff5f2c5b4ba9aa6744503607dbbb);
+        
+
+        marker_283b18289b944476955f1208ce0d2e37.bindPopup(popup_5e82b4afa39d490ea3e91ccb918eac1d)
+        ;
+
+        
+    
+    
+            marker_283b18289b944476955f1208ce0d2e37.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3b7e4c037e249b7b6520ccd2f50eef9 = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_3d16e0c21bb74f21875614843e3cab53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_f3b7e4c037e249b7b6520ccd2f50eef9.setIcon(icon_3d16e0c21bb74f21875614843e3cab53);
+        
+    
+        var popup_57898d728aa44f098ba3c94ba00b747a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7299af7abad4986942f3c6d7be4d0de = $(`<div id="html_a7299af7abad4986942f3c6d7be4d0de" style="width: 100.0%; height: 100.0%;"><i>And you’re one of mine... we still need to catch-up❤️</i></div>`)[0];
+            popup_57898d728aa44f098ba3c94ba00b747a.setContent(html_a7299af7abad4986942f3c6d7be4d0de);
+        
+
+        marker_f3b7e4c037e249b7b6520ccd2f50eef9.bindPopup(popup_57898d728aa44f098ba3c94ba00b747a)
+        ;
+
+        
+    
+    
+            marker_f3b7e4c037e249b7b6520ccd2f50eef9.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_70a5d5facb3c442283d43ba8bc7a84ee = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_b982f1a158934ea4947f84197b1a4bea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_70a5d5facb3c442283d43ba8bc7a84ee.setIcon(icon_b982f1a158934ea4947f84197b1a4bea);
+        
+    
+        var popup_dae6922199094ccbb2007af880756c18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4de2b98b9fe244c0862885b30a903006 = $(`<div id="html_4de2b98b9fe244c0862885b30a903006" style="width: 100.0%; height: 100.0%;"><i>@TomHuelin1 @CoffinMarcus @TheBrokenTrophy You’re being v footballer about this....</i></div>`)[0];
+            popup_dae6922199094ccbb2007af880756c18.setContent(html_4de2b98b9fe244c0862885b30a903006);
+        
+
+        marker_70a5d5facb3c442283d43ba8bc7a84ee.bindPopup(popup_dae6922199094ccbb2007af880756c18)
+        ;
+
+        
+    
+    
+            marker_70a5d5facb3c442283d43ba8bc7a84ee.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_931d415644d74c439e1c44f306cf9d06 = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_232e5c09557048418d3b1eb4014a3ed8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_931d415644d74c439e1c44f306cf9d06.setIcon(icon_232e5c09557048418d3b1eb4014a3ed8);
+        
+    
+        var popup_2afab2ca08d84c508281745a37dfee79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36cedff46cc34d47b032e77d511dd09a = $(`<div id="html_36cedff46cc34d47b032e77d511dd09a" style="width: 100.0%; height: 100.0%;"><i>I’ll be there</i></div>`)[0];
+            popup_2afab2ca08d84c508281745a37dfee79.setContent(html_36cedff46cc34d47b032e77d511dd09a);
+        
+
+        marker_931d415644d74c439e1c44f306cf9d06.bindPopup(popup_2afab2ca08d84c508281745a37dfee79)
+        ;
+
+        
+    
+    
+            marker_931d415644d74c439e1c44f306cf9d06.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d1c20b031af4076bb132c3ca5c8342e = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_a15ff4a5de6948fd816b6c9e13f7b51f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_6d1c20b031af4076bb132c3ca5c8342e.setIcon(icon_a15ff4a5de6948fd816b6c9e13f7b51f);
+        
+    
+        var popup_c80293ec5f0241e79b62e88f6c9f00ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_526763c4c0f04c6a8745ea63674d832d = $(`<div id="html_526763c4c0f04c6a8745ea63674d832d" style="width: 100.0%; height: 100.0%;"><i>Important news for customers using G-Suite: Google are moving control of your UK data to their US subsidiary, and b… https://t.co/yRxoMCOZQq</i></div>`)[0];
+            popup_c80293ec5f0241e79b62e88f6c9f00ac.setContent(html_526763c4c0f04c6a8745ea63674d832d);
+        
+
+        marker_6d1c20b031af4076bb132c3ca5c8342e.bindPopup(popup_c80293ec5f0241e79b62e88f6c9f00ac)
+        ;
+
+        
+    
+    
+            marker_6d1c20b031af4076bb132c3ca5c8342e.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4591e658b8ef4a6890df38bd930e6add = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_3153877499d54d2f914b75f0d3840685 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_4591e658b8ef4a6890df38bd930e6add.setIcon(icon_3153877499d54d2f914b75f0d3840685);
+        
+    
+        var popup_16fa72f5ece84704a90c0f4b38832a32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7af7a8f912304d2595a79627abbb5063 = $(`<div id="html_7af7a8f912304d2595a79627abbb5063" style="width: 100.0%; height: 100.0%;"><i>@simonamatthews @CoffinMarcus @TheBrokenTrophy @TomHuelin1 Like the Dead Sea scrolls....</i></div>`)[0];
+            popup_16fa72f5ece84704a90c0f4b38832a32.setContent(html_7af7a8f912304d2595a79627abbb5063);
+        
+
+        marker_4591e658b8ef4a6890df38bd930e6add.bindPopup(popup_16fa72f5ece84704a90c0f4b38832a32)
+        ;
+
+        
+    
+    
+            marker_4591e658b8ef4a6890df38bd930e6add.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3b52c9eb6654d6ebcb43cd267c87724 = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_ac57d60330a04610abf8464741bba08f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_a3b52c9eb6654d6ebcb43cd267c87724.setIcon(icon_ac57d60330a04610abf8464741bba08f);
+        
+    
+        var popup_5dfda5d16ba94d928b1dc0a7fc483a83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b45d3fedccdb400abc8518eed22702bf = $(`<div id="html_b45d3fedccdb400abc8518eed22702bf" style="width: 100.0%; height: 100.0%;"><i>@rvk_events @JulietTripp_ Makes you feel so 🥰</i></div>`)[0];
+            popup_5dfda5d16ba94d928b1dc0a7fc483a83.setContent(html_b45d3fedccdb400abc8518eed22702bf);
+        
+
+        marker_a3b52c9eb6654d6ebcb43cd267c87724.bindPopup(popup_5dfda5d16ba94d928b1dc0a7fc483a83)
+        ;
+
+        
+    
+    
+            marker_a3b52c9eb6654d6ebcb43cd267c87724.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6adf4ef8d7834bcd8f15291ec5ecb1f4 = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_46928c442c0541508d974d275f0da2e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_6adf4ef8d7834bcd8f15291ec5ecb1f4.setIcon(icon_46928c442c0541508d974d275f0da2e5);
+        
+    
+        var popup_00a0e8088da5481fb93682f8119d0c55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb40bb7b6c804b00b1b84fb46d267ac0 = $(`<div id="html_cb40bb7b6c804b00b1b84fb46d267ac0" style="width: 100.0%; height: 100.0%;"><i>@TinaxReevesx @lospacaminoscom Ok honey.... I definitely won’t stay over as it’s not too far from home, but will be… https://t.co/EsM2hjCnh1</i></div>`)[0];
+            popup_00a0e8088da5481fb93682f8119d0c55.setContent(html_cb40bb7b6c804b00b1b84fb46d267ac0);
+        
+
+        marker_6adf4ef8d7834bcd8f15291ec5ecb1f4.bindPopup(popup_00a0e8088da5481fb93682f8119d0c55)
+        ;
+
+        
+    
+    
+            marker_6adf4ef8d7834bcd8f15291ec5ecb1f4.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5e9b74ba3f048aab03c7697ec7a41fd = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_95496f64511b4211b4a7a985bf592ff2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_a5e9b74ba3f048aab03c7697ec7a41fd.setIcon(icon_95496f64511b4211b4a7a985bf592ff2);
+        
+    
+        var popup_6f28cc53a61f4fbea33ec6b5b91cdd84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9e7f33b63c34cb791884a5f87cb5b3b = $(`<div id="html_a9e7f33b63c34cb791884a5f87cb5b3b" style="width: 100.0%; height: 100.0%;"><i>The part that really scares me the most about this video is that he knows what he needs to so to kill himself! So s… https://t.co/Td89lxhwIr</i></div>`)[0];
+            popup_6f28cc53a61f4fbea33ec6b5b91cdd84.setContent(html_a9e7f33b63c34cb791884a5f87cb5b3b);
+        
+
+        marker_a5e9b74ba3f048aab03c7697ec7a41fd.bindPopup(popup_6f28cc53a61f4fbea33ec6b5b91cdd84)
+        ;
+
+        
+    
+    
+            marker_a5e9b74ba3f048aab03c7697ec7a41fd.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f29547f008d4a2c848da171c9798112 = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_35d7f3a08efa4f5e98ffbfb0cac467bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_9f29547f008d4a2c848da171c9798112.setIcon(icon_35d7f3a08efa4f5e98ffbfb0cac467bd);
+        
+    
+        var popup_05e351d924db44ef8cee6a1f4651daea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3245b8bb9e5441f94e2e7e3068edb96 = $(`<div id="html_e3245b8bb9e5441f94e2e7e3068edb96" style="width: 100.0%; height: 100.0%;"><i>Les 4 fautes  Pouvez-vous m’aider à corriger les quatre fautes dans ma phrase?  Can you help me correct the four mi… https://t.co/JKNy7FtPXT</i></div>`)[0];
+            popup_05e351d924db44ef8cee6a1f4651daea.setContent(html_e3245b8bb9e5441f94e2e7e3068edb96);
+        
+
+        marker_9f29547f008d4a2c848da171c9798112.bindPopup(popup_05e351d924db44ef8cee6a1f4651daea)
+        ;
+
+        
+    
+    
+            marker_9f29547f008d4a2c848da171c9798112.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82b9ab1233ca417ba1bc59dc3926728b = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_36b7df95ea004032a6e7fa064ce5d7a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_82b9ab1233ca417ba1bc59dc3926728b.setIcon(icon_36b7df95ea004032a6e7fa064ce5d7a7);
+        
+    
+        var popup_54ad05b37abf4eeca602902dad349df9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cea285e2dbe4f5c99c3cb4e83798386 = $(`<div id="html_6cea285e2dbe4f5c99c3cb4e83798386" style="width: 100.0%; height: 100.0%;"><i>Great advice. “Let’s move to Coventry”. With @TEDxCoventry at the Belgrave Theatre next Saturday, we leap into our… https://t.co/P0hNxpGZwt</i></div>`)[0];
+            popup_54ad05b37abf4eeca602902dad349df9.setContent(html_6cea285e2dbe4f5c99c3cb4e83798386);
+        
+
+        marker_82b9ab1233ca417ba1bc59dc3926728b.bindPopup(popup_54ad05b37abf4eeca602902dad349df9)
+        ;
+
+        
+    
+    
+            marker_82b9ab1233ca417ba1bc59dc3926728b.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5a26b4ecf554de1a1fa75e5be48a427 = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_28c9231013694d92b3f29b3058072b8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_a5a26b4ecf554de1a1fa75e5be48a427.setIcon(icon_28c9231013694d92b3f29b3058072b8a);
+        
+    
+        var popup_8aeebe5b91ec424bb0fde04c852bfe47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96e32e02dbae4721ab9638f6451c00ee = $(`<div id="html_96e32e02dbae4721ab9638f6451c00ee" style="width: 100.0%; height: 100.0%;"><i>Reading is my number one way to switch off.. what’s yours #eventprofs</i></div>`)[0];
+            popup_8aeebe5b91ec424bb0fde04c852bfe47.setContent(html_96e32e02dbae4721ab9638f6451c00ee);
+        
+
+        marker_a5a26b4ecf554de1a1fa75e5be48a427.bindPopup(popup_8aeebe5b91ec424bb0fde04c852bfe47)
+        ;
+
+        
+    
+    
+            marker_a5a26b4ecf554de1a1fa75e5be48a427.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_946be3bf114544e98182abccbc2e0db1 = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_e5bbe2944994458fbae0ea6099644503 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_946be3bf114544e98182abccbc2e0db1.setIcon(icon_e5bbe2944994458fbae0ea6099644503);
+        
+    
+        var popup_5f327e3b012841cdb7f480fd264a80d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4133144575341a3b976e036a1117663 = $(`<div id="html_a4133144575341a3b976e036a1117663" style="width: 100.0%; height: 100.0%;"><i>#one #of #the #best #thing #that #I #can #say #about naughty_dog_inc #they #know #how #to #deliver #A #story #that… https://t.co/FHTlGwTBWD</i></div>`)[0];
+            popup_5f327e3b012841cdb7f480fd264a80d4.setContent(html_a4133144575341a3b976e036a1117663);
+        
+
+        marker_946be3bf114544e98182abccbc2e0db1.bindPopup(popup_5f327e3b012841cdb7f480fd264a80d4)
+        ;
+
+        
+    
+    
+            marker_946be3bf114544e98182abccbc2e0db1.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d7f88d00e57406d8496d8eaedbea8d7 = L.marker(
+                [50.574606, -1.957296],
+                {}
+            ).addTo(map_3424e4a605d3456f833fbc5e5afeb739);
+        
+    
+            var icon_03f3f8c13a3f487db353d8f3e824d823 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-user", "iconColor": "orange", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_6d7f88d00e57406d8496d8eaedbea8d7.setIcon(icon_03f3f8c13a3f487db353d8f3e824d823);
+        
+    
+        var popup_f9efd959fe0940a9b7115e95877655a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64c1a4f334684f6193f606dd6567b1ff = $(`<div id="html_64c1a4f334684f6193f606dd6567b1ff" style="width: 100.0%; height: 100.0%;"><i>@BloggersHut Here's my latest blog post ☺️ https://t.co/VPS84z4ZPN</i></div>`)[0];
+            popup_f9efd959fe0940a9b7115e95877655a3.setContent(html_64c1a4f334684f6193f606dd6567b1ff);
+        
+
+        marker_6d7f88d00e57406d8496d8eaedbea8d7.bindPopup(popup_f9efd959fe0940a9b7115e95877655a3)
+        ;
+
+        
+    
+    
+            marker_6d7f88d00e57406d8496d8eaedbea8d7.bindTooltip(
+                `<div>
+                     Cliquez pour voir le tweet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
