@@ -1,132 +1,108 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Feb 22 09:34:17 2020
+Created on Thu Feb 20 17:42:14 2020
 
-@author: simon
+@author: Jonathan Molieres
 """
 # =============================================================================
-# Carte OpenStreetMap
+# import
 # =============================================================================
-import folium
+import folium as fl
+import json
+import requests
 
-#Coordonnées GPS du centre de Londres
-coordCentreLondres = [51.5055612,-0.1173717]
-
-# Création de la carte avec le thème "stamentoner"
-m = folium.Map(location=coordCentreLondres,
-               tiles='stamentoner',
-               zoom_start=6)
-
-# Message qui s'affiche quand on met la souris sur la localisation d'un tweet
-tooltip = "Cliquez pour voir le tweet"
 
 # =============================================================================
-# Connexion à la base de données
+# Class
 # =============================================================================
-import mysql.connector as mysql
+class Carte:
+    """classe gerant la carte avec folium"""
 
-db = mysql.connect(
-    host = "localhost",
-    user = "root",
-    passwd = "••••••••••••",
-    use_pure=True
-)
+    def __init__(self, coord=None):
+        """
+        Parameters
+        ----------
+        coord :TYPE: Liste , optional.
+            DESCRIPTION:contient les coordonnees de depart. The default is [48.8534,2.3488] qui correspond à Paris.
+        Returns
+        -------
+        None.
+        """
+        if coord is None:
+            coord = [45.89912, 6.12871]
+        self.carte = fl.Map(location=coord,zoom_start=6)
 
-# Création d'une instance de la classe Cursor pour pouvoir exécuter du code SQL avec Python
-cursor = db.cursor()
+    def cercle(self, coord, rayon, color='crimson'):
+        """
+        Permet d'ajouter un cercle à la carte
+        Parameters
+        ----------
+        coord : TYPE: Liste de floattant
+            DESCRIPTION: Liste des coordonnees
+        rayon : TYPE: entier
+            DESCRIPTION: determine le rayon du cercle
+        color : TYPE:String , optional
+            DESCRIPTION: Definie la couleur du cercle,The default is 'crimson'.
 
-# Choix de la base de données
-cursor.execute("USE twitter")
+        Returns
+        -------
+        None.
+        """
+        fl.Circle(
+            radius=rayon,
+            location=coord,
+            popup='The Waterfront',
+            color=color,
+            fill=True,
+            fill_color=color).add_to(self.carte)
 
-# =============================================================================
-# Requête pour récupérer les tweets stockés dans la table tweetsLondres de la BBD (rechTweetsLondres.py)
-# =============================================================================
-requete = "SELECT latitude,longitude,tweet FROM tweetsLondres"
-cursor.execute(requete)
+    def marqueur(self, coordonnee, popupstr, tooltip):
+        """
+        Place un marqueur sur la carte
+        Parameters
+        ----------
+        coordonnee : TYPE:Liste
+            DESCRIPTION: Liste des coordonnees 
+        tooltip : TYPE: String 
+            DESCRIPTION:String visible
+        popupstr : TYPE: String
+            DESCRIPTION: String visible lorsqu'on clique sur le marqueur
 
-# La méthode 'fetchall ()' récupère les lignes de la dernière instruction exécutée (= requete)
-result = cursor.fetchall() 
+        Returns
+        -------
+        None.
+        lien pour modifier l'apparence des icones : getbootstrap.com/docs/3.3/components/
+        """
+        fl.Marker(coordonnee, popup='<i>' + str(popupstr) + '</i>', tooltip=tooltip,
+                  icon=fl.Icon(color='black', icon_color='orange', icon='glyphicon-cutlery')).add_to(self.carte)
 
-# Récupération du nombre total de tweets traités
-cursor.execute("SELECT COUNT(*) FROM tweetsLondres")
-nombreTotal = cursor.fetchall()
-nombreTotal = str(nombreTotal[0])[1:][:4]
+    def save(self, fil='index.html'):
+        """
+        Fonction de creaction du html
+        Parameters
+        ----------
+        fil : TYPE: String, optional
+            DESCRIPTION: titre du fichier The default is 'index.html'.
 
-# =============================================================================
-# Recherche des 10 mots les plus utilisés dans les tweets postés à Londres le 22/02/2020
-# =============================================================================
+        Returns
+        -------
+        None.
+        """
+        self.carte.save("html\\" + fil)
 
-# Renvoie un dictionnaire ayant pour clés les mots des tweets et pour valeur leur fréquence d'apparition
-# La fonction ajoute aussi les marqueurs de position (grâce aux coordonnées GPS des tweets) sur la carte "m"
-def frequenceMots(data):
-    mots = {}
-    for ligne in data:
-        folium.Marker([ligne[0], ligne[1]], 
-              popup='<i>'+str(ligne[2])+'</i>', 
-              tooltip=tooltip,
-              icon=folium.Icon(color = "black",
-                               icon_color = "orange",
-                               icon = "glyphicon-user")
-              ).add_to(m)
-        for mot in ligne[2].replace(","," ").replace("'"," ").split(" "):
-            if mot in mots:
-                mots[mot] += 1
-            else:
-                mots[mot] = 1
-    return mots
-
-# Fonction qui renvoie la première clé d'un dictionnaire
-def premiereCle(dic):
-    for cle in dic.keys():
-        return cle
-
-# Renvoie une liste des mots les plus utilisés (= les mots dont leur fréquence d'apparition
-# est identique et maximale dans le dictionnaire pris en paramètre). 
-# Un mot est ignoré s'il appartient à la liste stopwords
-def meilleursMots(dic):
-    res = []
-    meilleurMot = premiereCle(dic)
-    for mot in dic.keys():
-        if dic[mot] > dic[meilleurMot] and mot.lower() not in stopwords:
-            res = [[mot,dic[mot]]]
-            meilleurMot = mot
-        elif dic[mot] == dic[meilleurMot] and mot.lower() not in stopwords:
-            res.append([mot])
-    return res
-
-# Fonction qui utilise les fonctions créées précédemment et affiche les 10 mots ayant la plus grande fréquence d'apparition        
-def affichageResultat():
-    print("  _____                 _ _        _ \n |  __ \               | | |      | |\n | |__) |___  ___ _   _| | |_ __ _| |_\n"+
-         " |  _  // _ \/ __| | | | | __/ _` | __|\n | | \ \  __/\__ \ |_| | | || (_| | |_\n |_|  \_\___||___/\__,_|_|\__\__,_|\__|")
-    print("\nLes 10 mots les plus utilisés dans les tweets postés à Londres le 22 février 2020 entre 10h et 18h (UTC+1) sont : ")
-    freq = frequenceMots(result)
-    compt = 0
-    while compt < 10:
-        for mot in meilleursMots(freq):
-            print(" ♦",mot[0])
-            stopwords.append(mot[0].lower())
-            compt += 1
-    print("Sur un total de",nombreTotal,"tweets comptabilisés")
-
-# Liste contenant des mots qui sont souvent utilisés pour donner du sens à une phrase, mais qui ne sont pas des 
-# mots importants. Ca peut être des déterminants (the,a,an,...), un pronom (himself,herself,...), un sujet(I,you,he,she,...) 
-# ou encore un auxiliaire (do,can,...)
-stopwords = []
-f = open("stopwords.txt", "r")
-for mot in f:
-    stopwords.append(mot[:-1])
-
-# On ajoute à la liste des stopwords des chaînes de caractère qui reviennent souvent mais qui ne sont pas vraiment des mots
-stopwords.append("&amp;")
-stopwords.append("-")
-stopwords.append("@" )
-stopwords.append("m")
-
-# =============================================================================
-# Affichage du résultat
-# =============================================================================
-affichageResultat()
-
-# Sauvegarde de la carte
-m.save('carteLondres.html')
-
+    def polygon(self, locations, tooltip=None, popup=True):
+        """
+        Trace un polygon sur la carte.
+        Parameters
+        ----------
+        locations : TYPE: Liste  des coordonnees
+            DESCRIPTION:
+        tooltip : TYPE: String visible sur la carte, optional
+            DESCRIPTION: phrase à ajouter.The default is None.
+        popup : TYPE: String visible lorsqu'on clique sur le polygon,optional
+            DESCRIPTION. The default is True.
+        Returns
+        -------
+        None.
+        """
+        fl.Polygon(locations, popup, tooltip).add_to(self.carte)
