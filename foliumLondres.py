@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-	# -*- coding: utf-8 -*-
-"""	"""
-Created on Sat Feb 22 09:34:17 2020	Created on Thu Feb 20 17:42:14 2020
-@author: simon	@author: Jonathan Molieres
-"""	"""
+"""	
+Created on Sat Feb 22 09:34:17 2020	
+@author: simon	
+"""	
 import folium
 
 #Coordonnées GPS du centre de Londres	
